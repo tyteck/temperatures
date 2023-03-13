@@ -1,0 +1,223 @@
+[
+    {
+        "datasetid": "temperature-quotidienne-departementale",
+        "recordid": "5e1bd0717c65f47a1621ec8f2506c347b2bdfc52",
+        "fields": {
+            "tmoy": 11.63,
+            "departement": "Finist\u00e8re",
+            "tmin": 7.77,
+            "date_obs": "2019-10-22",
+            "tmax": 15.48,
+            "code_insee_departement": "29"
+        },
+        "record_timestamp": "2021-03-22T00: 00: 00+01: 00"
+    },
+    {
+        "datasetid": "temperature-quotidienne-departementale",
+        "recordid": "7d5f662bc2ae5b7fb49d71cdbaa0cf8ea7bce7a1",
+        "fields": {
+            "tmoy": 13.45,
+            "departement": "C\u00f4te-d'Or",
+            "tmin": 10.9,
+            "date_obs": "2019-10-22",
+            "tmax": 16.0,
+            "code_insee_departement": "21"
+        },
+        "record_timestamp": "2021-03-22T00:00:00+01:00"
+    },
+    {
+        "datasetid": "temperature-quotidienne-departementale",
+        "recordid": "d33ad85c2e0c30790c388e19ccf86e2b8f6c0896",
+        "fields": {
+            "tmoy": 15.18,
+            "departement": "Savoie",
+            "tmin": 11.7,
+            "date_obs": "2019-10-22",
+            "tmax": 18.65,
+            "code_insee_departement": "73"
+        },
+        "record_timestamp": "2021-03-22T00: 00: 00+01: 00"
+    },
+    {
+        "datasetid": "temperature-quotidienne-departementale",
+        "recordid": "fefc33052cc82538e276987f9da8341ab66972cb",
+        "fields": {
+            "tmoy": 13.1,
+            "departement": "Loz\u00e8re",
+            "tmin": 9.7,
+            "date_obs": "2019-10-22",
+            "tmax": 16.5,
+            "code_insee_departement": "48"
+        },
+        "record_timestamp": "2021-03-22T00: 00: 00+01: 00"
+    },
+    {
+        "datasetid": "temperature-quotidienne-departementale",
+        "recordid": "fb637613d05822748caca6a1ec295948587a2c4c",
+        "fields": {
+            "tmoy": 9.75,
+            "departement": "Maine-et-Loire",
+            "tmin": 4.4,
+            "date_obs": "2019-10-22",
+            "tmax": 15.1,
+            "code_insee_departement": "49"
+        },
+        "record_timestamp": "2021-03-22T00: 00: 00+01: 00"
+    },
+    {
+        "datasetid": "temperature-quotidienne-departementale",
+        "recordid": "4888a9d60423bee3f11b8d46bb6b0e4b614cbddc",
+        "fields": {
+            "tmoy": 20.42,
+            "departement": "Var",
+            "tmin": 18.56,
+            "date_obs": "2019-10-23",
+            "tmax": 22.28,
+            "code_insee_departement": "83"
+        },
+        "record_timestamp": "2021-03-22T00: 00: 00+01: 00"
+    },
+    {
+        "datasetid": "temperature-quotidienne-departementale",
+        "recordid": "f0e348d0c61cf40554cbd3928d3fefcca45385e4",
+        "fields": {
+            "tmoy": 14.45,
+            "departement": "Indre",
+            "tmin": 11.4,
+            "date_obs": "2019-10-23",
+            "tmax": 17.5,
+            "code_insee_departement": "36"
+        },
+        "record_timestamp": "2021-03-22T00: 00: 00+01: 00"
+    },
+    {
+        "datasetid": "temperature-quotidienne-departementale",
+        "recordid": "3b86c791e968f0a376a82c498fe7ed50bfa81aa9",
+        "fields": {
+            "tmoy": 12.25,
+            "departement": "Pas-de-Calais",
+            "tmin": 9.2,
+            "date_obs": "2019-10-23",
+            "tmax": 15.3,
+            "code_insee_departement": "62"
+        },
+        "record_timestamp": "2021-03-22T00: 00: 00+01: 00"
+    },
+    {
+        "datasetid": "temperature-quotidienne-departementale",
+        "recordid": "9b931e29c83005b12dfc66143c040aeac34c4948",
+        "fields": {
+            "tmoy": 14.25,
+            "departement": "C\u00f4te-d'Or",
+            "tmin": 9.8,
+            "date_obs": "2019-10-23",
+            "tmax": 18.7,
+            "code_insee_departement": "21"
+        },
+        "record_timestamp": "2021-03-22T00: 00: 00+01: 00"
+    },
+    {
+        "datasetid": "temperature-quotidienne-departementale",
+        "recordid": "a36b7fe694eab3ef3442a5458d5cc51d70280681",
+        "fields": {
+            "tmoy": 12.7,
+            "departement": "Eure-et-Loir",
+            "tmin": 10.05,
+            "date_obs": "2019-10-23",
+            "tmax": 15.35,
+            "code_insee_departement": "28"
+        },
+        "record_timestamp": "2021-03-22T00:00:00+01:00"
+    },
+    {
+        "datasetid": "temperature-quotidienne-departementale",
+        "recordid": "25db44ef89c7947f56279d7da467bbba4ac21bd3",
+        "fields": {
+            "tmoy": 13.32,
+            "departement": "Loire",
+            "tmin": 11.75,
+            "date_obs": "2019-10-23",
+            "tmax": 14.9,
+            "code_insee_departement": "42"
+        },
+        "record_timestamp": "2021-03-22T00: 00: 00+01: 00"
+    },
+    {
+        "datasetid": "temperature-quotidienne-departementale",
+        "recordid": "10a8ed0d4df857934fba8185347f550c45c99b7f",
+        "fields": {
+            "tmoy": 13.4,
+            "departement": "Aisne",
+            "tmin": 10.7,
+            "date_obs": "2019-10-23",
+            "tmax": 16.1,
+            "code_insee_departement": "02"
+        },
+        "record_timestamp": "2021-03-22T00:00:00+01:00"
+    },
+    {
+        "datasetid": "temperature-quotidienne-departementale",
+        "recordid": "9a2985897eefec74f60a7f13334d966908ce1bee",
+        "fields": {
+            "tmoy": 12.52,
+            "departement": "Oise",
+            "tmin": 9.85,
+            "date_obs": "2019-10-23",
+            "tmax": 15.2,
+            "code_insee_departement": "60"
+        },
+        "record_timestamp": "2021-03-22T00: 00: 00+01: 00"
+    },
+    {
+        "datasetid": "temperature-quotidienne-departementale",
+        "recordid": "ffdb3fb4ad2f030cb17131acc0d1e1ea186eb737",
+        "fields": {
+            "tmoy": 12.61,
+            "departement": "Manche",
+            "tmin": 10.5,
+            "date_obs": "2019-10-23",
+            "tmax": 14.73,
+            "code_insee_departement": "50"
+        },
+        "record_timestamp": "2021-03-22T00: 00: 00+01: 00"
+    },
+    {
+        "datasetid": "temperature-quotidienne-departementale",
+        "recordid": "7d8653953a201f37f0bbdc42ae52005dd8151888",
+        "fields": {
+            "tmoy": 14.8,
+            "departement": "Lot",
+            "tmin": 13.4,
+            "date_obs": "2019-10-23",
+            "tmax": 16.2,
+            "code_insee_departement": "46"
+        },
+        "record_timestamp": "2021-03-22T00:00:00+01:00"
+    },
+    {
+        "datasetid": "temperature-quotidienne-departementale",
+        "recordid": "8a532311e6bb94731abb66756ca3af2a2d1e0caf",
+        "fields": {
+            "tmoy": 11.77,
+            "departement": "Yvelines",
+            "tmin": 9.83,
+            "date_obs": "2019-10-23",
+            "tmax": 13.7,
+            "code_insee_departement": "78"
+        },
+        "record_timestamp": "2021-03-22T00: 00: 00+01: 00"
+    },
+    {
+        "datasetid": "temperature-quotidienne-departementale",
+        "recordid": "d4e0885e5d9108c179415bd6577a7a598a17c16e",
+        "fields": {
+            "tmoy": 10.55,
+            "departement": "Loz\u00e8re",
+            "tmin": 9.2,
+            "date_obs": "2019-10-23",
+            "tmax": 11.9,
+            "code_insee_departement": "48"
+        },
+        "record_timestamp": "2021-03-22T00: 00: 00+01: 00"
+    }
+]

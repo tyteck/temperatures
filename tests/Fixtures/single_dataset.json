@@ -1,0 +1,13 @@
+{
+    "datasetid": "temperature-quotidienne-departementale",
+    "recordid": "9b931e29c83005b12dfc66143c040aeac34c4948",
+    "fields": {
+        "tmoy": 14.25,
+        "departement": "C\u00f4te-d'Or",
+        "tmin": 9.8,
+        "date_obs": "2019-10-23",
+        "tmax": 18.7,
+        "code_insee_departement": "21"
+    },
+    "record_timestamp": "2021-03-22T00: 00: 00+01: 00"
+}
