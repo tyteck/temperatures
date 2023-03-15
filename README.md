@@ -1,66 +1,67 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+## Temperatures
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Ce projet à pour ambition de répondre à la question "mais est-ce qu'il fait vraiment de plus en plus chaud ?".
+Rappelle toi à l'anniversaire de XXX on était déja en short t-shirt !!!
 
-## About Laravel
+### Comment y répondre ?
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Dans mon esprit afficher une courbe des températures recueillies depuis 2018 dans tous les départements français me parait une bonne solution.
+Je compte récupérer les données de température et en faire un graphique on ne peut plus simple à comprendre.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+D'emblée, dès la page d'accueil on pourra voir 3 courbes des tempéatures.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+-   La température minimal en France
+-   La température maximale en France
+-   La température moyenne en France
 
-## Learning Laravel
+En utilisant une liste déroulante on pourra voir la meme chose mais pour un département francais spécifique.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Installation
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Ce service ne requiert que quelques éléments "standards".
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+-   un serveur web
+-   un moteur de base de données
+-   php 8.2
 
-## Laravel Sponsors
+Par soucis de compatibilité multi plateformes j'utilise docker.
+A titre d'exemple voici ma configuration locale
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+### Configuration locale
 
-### Premium Partners
+#### Configuration commune à tous mes projets
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+-   un container mysql - base de données
+-   un container mailhog - mail catcher
+-   un container phpmyadmin - qui tape sur le serveur de DB local
+-   un container [nginx-proxy](https://github.com/tyteck/nginx-proxy) - Il bind les ports 80 et 443 et redirige les urls locales vers le bon container.
 
-## Contributing
+#### Configuration spécifique à temperatures
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+-   un container php8.2-apache
 
-## Code of Conduct
+tous les containers (communs et spécifiques) sont sur le même réseau, ce qui leur permet de communiquer avec les outils communs notamment.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Pour démarrer le service, il faut
 
-## Security Vulnerabilities
+-   démarrer le reverse proxy lancé
+-   modifier le fichier hosts
+    -   sous linux(/macOs ?) /etc/hosts
+    -   sous windows %WINDIR%\system32\driver\etc\hosts
+-   modifier le `.env` pour refléter sa config locale
+    -   le .env.example devrait être à jour.
+-   et enfin démarrer le container **temperatures**
+    -   `docker compose build && docker compose up -d`
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### Production
+
+La configuration de prod est radicalement différrente et seule le container du projet est lancé.
+En prod :
+
+-   Pas de phpmyadmin/adminer
+-   Pas de mailcatcher
+-   La BD est sur un cluster autre (renseigné dans la conf)
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Le projet Temperatures est un logiciel open-source sous license [MIT](https://opensource.org/licenses/MIT).
