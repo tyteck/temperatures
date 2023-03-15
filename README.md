@@ -15,6 +15,16 @@ D'emblée, dès la page d'accueil on pourra voir 3 courbes des tempéatures.
 -   La température moyenne en France
 
 En utilisant une liste déroulante on pourra voir la meme chose mais pour un département francais spécifique.
+En utilisant une seconde liste déroulante on pourra sélectionner une plage de date.
+
+-   depuis 2018
+-   depuis 2 ans
+-   depuis 1 an
+
+## Comment cela marche
+
+Grace à l'open data. Tous les jours, à heure fixe un script va interroger l'api OpenData de l'ODRE et récuperer les temperatures mensuelles normalisées.
+Ce sont ces températures qui seront restituées dans le graph de la page d'accueil.
 
 ## Installation
 
