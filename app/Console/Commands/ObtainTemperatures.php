@@ -7,6 +7,7 @@ namespace App\Console\Commands;
 use App\Enums\SortWay;
 use App\Models\Departement;
 use App\Service\OdreQueryBuilderService;
+use App\Service\ProcessDatasetService;
 use Carbon\Carbon;
 use Illuminate\Console\Command;
 
@@ -51,6 +52,7 @@ class ObtainTemperatures extends Command
         $json = file_get_contents($odreQuery);
 
         // process json
+        ProcessDatasetService::from($json)->store();
 
         return Command::SUCCESS;
     }

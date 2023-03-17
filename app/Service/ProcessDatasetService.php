@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App\Service;
 
 use App\DataTransferObjects\DatasetDTO;
+use App\DataTransferObjects\SingleDatasetDTO;
 use App\Models\Departement;
 use App\Models\Temperature;
 use Illuminate\Support\Collection;
@@ -24,27 +25,28 @@ class ProcessDatasetService
 
     public function store(): void
     {
-        try {
-            $datasetObjects = DatasetDTO::toCollection($this->jsonDataset);
-            
-            if ($this->departement === null) {
-                $departement = Departement::query()->firstOrCreate(
-                    ['code_insee' => $datasetObject->departement_code_insee],
-                    ['nom' => $datasetObject->departement_nom],
-                );
-            }
+        DatasetDTO::from($this->jsonDataset)
+            ->toCollection()
+            ->each(function (SingleDatasetDTO $singleDatasetDTO): void {
+                try {
+                    $departement = Departement::query()->firstOrCreate(
+                        ['code_insee' => $singleDatasetDTO->departement_code_insee],
+                        ['nom' => $singleDatasetDTO->departement_nom],
+                    );
 
-            Temperature::create(
-                [
-                    'date_observation' => $datasetObject->date_observation,
-                    'departement_id' => $departement->id,
-                    'temperature_moy' => $datasetObject->temperature_moy,
-                    'temperature_min' => $datasetObject->temperature_min,
-                    'temperature_max' => $datasetObject->temperature_max,
-                ]
-            );
-        } catch (\Throwable $thrown) {
-            throw $thrown;
-        }
+                    Temperature::create(
+                        [
+                            'date_observation' => $singleDatasetDTO->date_observation,
+                            'departement_id' => $departement->id,
+                            'temperature_moy' => $singleDatasetDTO->temperature_moy,
+                            'temperature_min' => $singleDatasetDTO->temperature_min,
+                            'temperature_max' => $singleDatasetDTO->temperature_max,
+                        ]
+                    );
+                } catch (\Throwable $thrown) {
+                    throw $thrown;
+                }
+            })
+        ;
     }
 }
