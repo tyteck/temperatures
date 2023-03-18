@@ -42,9 +42,9 @@ class SingleDatasetDTO implements Arrayable
                 new \Exception('Dataset is empty.')
             );
 
-            array_map(function ($required): void {
-                throw_unless(
-                    isset($this->dataset['fields'][$required]),
+            array_map(function (string $required): void {
+                throw_if(
+                    !isset($this->dataset['fields'][$required]),
                     new \Exception("Required key {$required} is missing.")
                 );
             }, $this->required);

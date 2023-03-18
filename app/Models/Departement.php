@@ -22,4 +22,9 @@ class Departement extends Model
     {
         return $this->hasMany(Temperature::class);
     }
+
+    public static function byCodeInsee(string $codeInsee): ?static
+    {
+        return self::where('code_insee', $codeInsee)->first();
+    }
 }

@@ -8,6 +8,7 @@ use App\DataTransferObjects\SingleDatasetDTO;
 use App\Exceptions\InvalidDatasetException;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\File;
+use Tests\Enums\FixtureFile;
 use Tests\TestCase;
 
 /**
@@ -20,9 +21,9 @@ class SingleDatasetDTOTest extends TestCase
     /** @test */
     public function dataset_should_be_recorded_properly(): void
     {
-        $dataset = json_decode(File::get(fixtures_path('single_dataset.json')), true);
+        $dataset = json_decode(File::get(FixtureFile::SINGLE_DATASET->path()), true);
 
-        $singleDatasetDto = SingleDatasetDTO::toObject($dataset);
+        $singleDatasetDto = SingleDatasetDTO::toObject($dataset['records'][0]);
 
         $this->assertEqualsCanonicalizing(
             $singleDatasetDto->toArray(),

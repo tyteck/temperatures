@@ -25,18 +25,11 @@ class DatasetDTO
                 new \Exception('Dataset is empty.')
             );
 
-            $decoded = [];
-            $temporary = json_decode($this->jsonDataset, true, flags: JSON_THROW_ON_ERROR);
+            $decoded = json_decode($this->jsonDataset, true, flags: JSON_THROW_ON_ERROR);
 
-            if (!isset($temporary[0])) {
-                $decoded[] = $temporary;
-            } else {
-                $decoded = &$temporary;
-            }
-
-            array_map(function ($singleDataset): void {
+            array_map(function (array $singleDataset): void {
                 $this->datasetCollection->push(SingleDatasetDTO::toObject($singleDataset));
-            }, $decoded);
+            }, $decoded['records']); // seule la partie records nous interesse ATM
         } catch (\Throwable $thrown) {
             throw new InvalidDatasetException($thrown->getMessage());
         }

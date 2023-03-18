@@ -121,6 +121,7 @@ class DepartementSeeder extends Seeder
             function ($item) use (&$index) {
                 return array_merge($item, [
                     'id' => $index++,
+                    'created_at' => now(),
                 ]);
             },
             $data

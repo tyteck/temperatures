@@ -1,2225 +1,2246 @@
-[
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "7463e909953263589965a8878c5c7319e6e4a357",
-        "fields": {
-            "tmoy": 0.95,
-            "departement": "Aube",
-            "tmin": -1.8,
-            "date_obs": "2023-02-28",
-            "tmax": 3.7,
-            "code_insee_departement": "10"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "018f0ab22cb52d488b91ee20b2574fb5fbb6a51b",
-        "fields": {
-            "tmoy": 5.55,
-            "departement": "Bouches-du-Rhône",
-            "tmin": 3.88,
-            "date_obs": "2023-02-28",
-            "tmax": 7.21,
-            "code_insee_departement": "13"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "307b430cf636d2af21c0f25f7a50e342b438fc6a",
-        "fields": {
-            "tmoy": -4.2,
-            "departement": "Haute-Loire",
-            "tmin": -7.4,
-            "date_obs": "2023-02-28",
-            "tmax": -1,
-            "code_insee_departement": "43"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "8a87c3d667cbcf1a7faf95be800fd7f8ebbcfdbc",
-        "fields": {
-            "tmoy": 2.9,
-            "departement": "Sarthe",
-            "tmin": -1.8,
-            "date_obs": "2023-02-28",
-            "tmax": 7.6,
-            "code_insee_departement": "72"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "e697efcbe5c150d4d6426d63f80058d9996b6ecb",
-        "fields": {
-            "tmoy": 1.27,
-            "departement": "Somme",
-            "tmin": -2.05,
-            "date_obs": "2023-02-28",
-            "tmax": 4.6,
-            "code_insee_departement": "80"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "3a576b1673b1ab9e6c48cf1d1cecb5fc139d88cb",
-        "fields": {
-            "tmoy": 3.68,
-            "departement": "Loire-Atlantique",
-            "tmin": -0.78,
-            "date_obs": "2023-02-28",
-            "tmax": 8.14,
-            "code_insee_departement": "44"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "105e1c4f95fdab47a1ccc54f6d3f1829ba4f73b1",
-        "fields": {
-            "tmoy": -0.85,
-            "departement": "Lot",
-            "tmin": -6.6,
-            "date_obs": "2023-02-28",
-            "tmax": 4.9,
-            "code_insee_departement": "46"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "47e6a0b51c2e8256943623f298dd5b0389861db9",
-        "fields": {
-            "tmoy": -2.25,
-            "departement": "Lozère",
-            "tmin": -6.2,
-            "date_obs": "2023-02-28",
-            "tmax": 1.7,
-            "code_insee_departement": "48"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "c89d8722de26b4579bb678f507791e2a57c208a5",
-        "fields": {
-            "tmoy": 2.6,
-            "departement": "Maine-et-Loire",
-            "tmin": -2.4,
-            "date_obs": "2023-02-28",
-            "tmax": 7.6,
-            "code_insee_departement": "49"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "cb291463fcbf5912bc48d58b2d227bfb360194ac",
-        "fields": {
-            "tmoy": 1.75,
-            "departement": "Pas-de-Calais",
-            "tmin": 0,
-            "date_obs": "2023-02-28",
-            "tmax": 3.5,
-            "code_insee_departement": "62"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "6e3d81f8c6b6127de7fdf8b4e27df676339805f9",
-        "fields": {
-            "tmoy": 2.25,
-            "departement": "Haute-Savoie",
-            "tmin": -1.5,
-            "date_obs": "2023-02-01",
-            "tmax": 5.99,
-            "code_insee_departement": "74"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "8d3eacc8743f896398946216b1a12a5c07ad178f",
-        "fields": {
-            "tmoy": 5.78,
-            "departement": "Saône-et-Loire",
-            "tmin": 3.2,
-            "date_obs": "2023-02-01",
-            "tmax": 8.35,
-            "code_insee_departement": "71"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "0a67710da93799e9fca5f2be13a55f9ccad00c6d",
-        "fields": {
-            "tmoy": 11.58,
-            "departement": "Pyrénées-Orientales",
-            "tmin": 9.05,
-            "date_obs": "2023-02-01",
-            "tmax": 14.1,
-            "code_insee_departement": "66"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "96896e5904e13a7ebed89d3a20222c5be81daf49",
-        "fields": {
-            "tmoy": 7.74,
-            "departement": "Calvados",
-            "tmin": 5.32,
-            "date_obs": "2023-02-01",
-            "tmax": 10.15,
-            "code_insee_departement": "14"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "9fe28b58b597779f47d477db99455e62ddd40f27",
-        "fields": {
-            "tmoy": 7.65,
-            "departement": "Charente",
-            "tmin": 2.5,
-            "date_obs": "2023-02-01",
-            "tmax": 12.8,
-            "code_insee_departement": "16"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "9d1714cdb593a1a8dee4a850c76f03e86acc79f0",
-        "fields": {
-            "tmoy": 8.5,
-            "departement": "Paris",
-            "tmin": 6.8,
-            "date_obs": "2023-02-01",
-            "tmax": 10.2,
-            "code_insee_departement": "75"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "0c5bcb3ae9d0f14d051cb93632075582cb8595cb",
-        "fields": {
-            "tmoy": 7.8,
-            "departement": "Alpes-de-Haute-Provence",
-            "tmin": 2.8,
-            "date_obs": "2023-02-01",
-            "tmax": 12.8,
-            "code_insee_departement": "04"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "c5c72fb88af76c30e5b1044688fc076d97566750",
-        "fields": {
-            "tmoy": 8.85,
-            "departement": "Vaucluse",
-            "tmin": 5.71,
-            "date_obs": "2023-02-01",
-            "tmax": 12,
-            "code_insee_departement": "84"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "b6d53c23e2994545b470dea264eda881ffd2a978",
-        "fields": {
-            "tmoy": 8.1,
-            "departement": "Tarn-et-Garonne",
-            "tmin": 5.7,
-            "date_obs": "2023-02-01",
-            "tmax": 10.5,
-            "code_insee_departement": "82"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "7250814df3651c73061629fe0ec895cdcf40d059",
-        "fields": {
-            "tmoy": 9.88,
-            "departement": "Alpes-Maritimes",
-            "tmin": 5.95,
-            "date_obs": "2023-02-01",
-            "tmax": 13.81,
-            "code_insee_departement": "06"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "db6dc40954d0dc79492b4c1bd8ab930ed0dc6b7d",
-        "fields": {
-            "tmoy": 6.48,
-            "departement": "Somme",
-            "tmin": 3.95,
-            "date_obs": "2023-02-01",
-            "tmax": 9,
-            "code_insee_departement": "80"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "88a9db235ed00a27a19196b588bf031a24437d59",
-        "fields": {
-            "tmoy": 7.15,
-            "departement": "Ardèche",
-            "tmin": 2.5,
-            "date_obs": "2023-02-01",
-            "tmax": 11.8,
-            "code_insee_departement": "07"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "ed91d795ff42e816e441fcd2193b6ebe759245bf",
-        "fields": {
-            "tmoy": 7.63,
-            "departement": "Charente-Maritime",
-            "tmin": 5.9,
-            "date_obs": "2023-02-01",
-            "tmax": 9.36,
-            "code_insee_departement": "17"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "8d3d5c3585fc27e0da11cbec59421c48b075cfb2",
-        "fields": {
-            "tmoy": 5.75,
-            "departement": "Nièvre",
-            "tmin": 3.9,
-            "date_obs": "2023-02-01",
-            "tmax": 7.6,
-            "code_insee_departement": "58"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "0b0bfbaa4aedbde174a739201ad953686405abb9",
-        "fields": {
-            "tmoy": 8.05,
-            "departement": "Corrèze",
-            "tmin": 5.1,
-            "date_obs": "2023-02-01",
-            "tmax": 11,
-            "code_insee_departement": "19"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "e4ba71bdaa1bd20468d2c77beb3362fb354634e0",
-        "fields": {
-            "tmoy": 6.42,
-            "departement": "Marne",
-            "tmin": 3.7,
-            "date_obs": "2023-02-01",
-            "tmax": 9.15,
-            "code_insee_departement": "51"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "5674e6909a46078026973ca7a7e284eb3955b6ae",
-        "fields": {
-            "tmoy": 7.68,
-            "departement": "Val-d'Oise",
-            "tmin": 5.57,
-            "date_obs": "2023-02-01",
-            "tmax": 9.8,
-            "code_insee_departement": "95"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "a3a69a19b5ee7781833f56fb73aa5b055885b38c",
-        "fields": {
-            "tmoy": 8.85,
-            "departement": "Pas-de-Calais",
-            "tmin": 7.9,
-            "date_obs": "2023-02-02",
-            "tmax": 9.8,
-            "code_insee_departement": "62"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "c9de5710dfe92ab78e9f7c5d26ceb3f1a748daa0",
-        "fields": {
-            "tmoy": 9.25,
-            "departement": "Nord",
-            "tmin": 7.65,
-            "date_obs": "2023-02-02",
-            "tmax": 10.85,
-            "code_insee_departement": "59"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "460b47f6f856c09b1bf09594636d6ed0de775c2d",
-        "fields": {
-            "tmoy": 7.4,
-            "departement": "Bas-Rhin",
-            "tmin": 5.4,
-            "date_obs": "2023-02-02",
-            "tmax": 9.4,
-            "code_insee_departement": "67"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "2ae406042489a118ff14912da074def71130c1ee",
-        "fields": {
-            "tmoy": 0.8,
-            "departement": "Cantal",
-            "tmin": -6.3,
-            "date_obs": "2023-02-02",
-            "tmax": 7.9,
-            "code_insee_departement": "15"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "4866fbaab77ef90c32cdc97942e881e64cabcc2e",
-        "fields": {
-            "tmoy": 6.2,
-            "departement": "Haut-Rhin",
-            "tmin": 4.5,
-            "date_obs": "2023-02-02",
-            "tmax": 7.9,
-            "code_insee_departement": "68"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "7f15d01aaa3f839d8483f978b1f3efa15ec89267",
-        "fields": {
-            "tmoy": 7.8,
-            "departement": "Charente",
-            "tmin": 3.9,
-            "date_obs": "2023-02-02",
-            "tmax": 11.7,
-            "code_insee_departement": "16"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "6e53d13c44b2fd479a6d07cb71b768c2f0f8f2ec",
-        "fields": {
-            "tmoy": 7.3,
-            "departement": "Oise",
-            "tmin": 4.23,
-            "date_obs": "2023-02-02",
-            "tmax": 10.36,
-            "code_insee_departement": "60"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "78cd2d1fa16f5b8aef9cc1fb0629b37b116f294a",
-        "fields": {
-            "tmoy": 4.5,
-            "departement": "Tarn",
-            "tmin": -2.7,
-            "date_obs": "2023-02-02",
-            "tmax": 11.7,
-            "code_insee_departement": "81"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "fa5b94996e9ef04904323a10b0b4d72b62a1e64d",
-        "fields": {
-            "tmoy": 7.3,
-            "departement": "Ardennes",
-            "tmin": 6.2,
-            "date_obs": "2023-02-02",
-            "tmax": 8.4,
-            "code_insee_departement": "08"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "f1d3b6be66c36862bfc426b758e9978c6a46a361",
-        "fields": {
-            "tmoy": 8,
-            "departement": "Paris",
-            "tmin": 5.8,
-            "date_obs": "2023-02-02",
-            "tmax": 10.2,
-            "code_insee_departement": "75"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "3d7dcc1c300872a66d1755b7d50dc34ca78fc75b",
-        "fields": {
-            "tmoy": 8.35,
-            "departement": "Aude",
-            "tmin": 4.35,
-            "date_obs": "2023-02-02",
-            "tmax": 12.35,
-            "code_insee_departement": "11"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "e5a44604bd6921795666632335a842a542d8b7ef",
-        "fields": {
-            "tmoy": 7.02,
-            "departement": "Saône-et-Loire",
-            "tmin": 3.8,
-            "date_obs": "2023-02-02",
-            "tmax": 10.25,
-            "code_insee_departement": "71"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "8b1eb7b38d370cfdcc9d745e8229a217d50da3eb",
-        "fields": {
-            "tmoy": 7.2,
-            "departement": "Corrèze",
-            "tmin": 3.6,
-            "date_obs": "2023-02-02",
-            "tmax": 10.8,
-            "code_insee_departement": "19"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "e1eb8b23c9b311003b12241a5143bd27bd64ce1d",
-        "fields": {
-            "tmoy": 6.15,
-            "departement": "Doubs",
-            "tmin": 3.9,
-            "date_obs": "2023-02-02",
-            "tmax": 8.4,
-            "code_insee_departement": "25"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "1c75a026b3fd94e3e50437f42d235ff945f948c5",
-        "fields": {
-            "tmoy": 4.28,
-            "departement": "Loire",
-            "tmin": 0.24,
-            "date_obs": "2023-02-02",
-            "tmax": 8.32,
-            "code_insee_departement": "42"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "a4184c69caa26833c48cb7b31c1b308b8f21e24e",
-        "fields": {
-            "tmoy": 6.4,
-            "departement": "Jura",
-            "tmin": 4,
-            "date_obs": "2023-02-02",
-            "tmax": 8.8,
-            "code_insee_departement": "39"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "0250b74ae5230a94f9bd9137089edd8b2c9b90ed",
-        "fields": {
-            "tmoy": 6.9,
-            "departement": "Indre",
-            "tmin": 4.7,
-            "date_obs": "2023-02-02",
-            "tmax": 9.1,
-            "code_insee_departement": "36"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "39f30db99d68ad44deb956fd2c49f8807d63fb63",
-        "fields": {
-            "tmoy": 5.1,
-            "departement": "Gers",
-            "tmin": -1,
-            "date_obs": "2023-02-02",
-            "tmax": 11.2,
-            "code_insee_departement": "32"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "9dc8367cd45f8ddd8f3915a26f4be9177fa2b057",
-        "fields": {
-            "tmoy": 5.3,
-            "departement": "Eure-et-Loir",
-            "tmin": 1.4,
-            "date_obs": "2023-02-02",
-            "tmax": 9.2,
-            "code_insee_departement": "28"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "179080ff193c0f1678616845b75d828b3c74a693",
-        "fields": {
-            "tmoy": 7.62,
-            "departement": "Loire-Atlantique",
-            "tmin": 5.23,
-            "date_obs": "2023-02-02",
-            "tmax": 10.02,
-            "code_insee_departement": "44"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "0f31deafd576ad69641313312680ffc556bfba89",
-        "fields": {
-            "tmoy": 5.72,
-            "departement": "Dordogne",
-            "tmin": -0.15,
-            "date_obs": "2023-02-02",
-            "tmax": 11.6,
-            "code_insee_departement": "24"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "71743b371a8dc1d69f0641f7224e8f25780b28df",
-        "fields": {
-            "tmoy": 6.57,
-            "departement": "Meuse",
-            "tmin": 5.47,
-            "date_obs": "2023-02-02",
-            "tmax": 7.67,
-            "code_insee_departement": "55"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "48c024e2e6c3542c37b4bcae391cfea5c4fad66a",
-        "fields": {
-            "tmoy": 6.7,
-            "departement": "Marne",
-            "tmin": 4.65,
-            "date_obs": "2023-02-02",
-            "tmax": 8.75,
-            "code_insee_departement": "51"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "3cad6f2d56ab8722adbc421850e0edc8924c35d9",
-        "fields": {
-            "tmoy": 5.75,
-            "departement": "Loiret",
-            "tmin": 2.4,
-            "date_obs": "2023-02-02",
-            "tmax": 9.1,
-            "code_insee_departement": "45"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "46a7870c748bd234dd37a7cd49af8087224ff446",
-        "fields": {
-            "tmoy": 5.9,
-            "departement": "Moselle",
-            "tmin": 5.1,
-            "date_obs": "2023-02-02",
-            "tmax": 6.7,
-            "code_insee_departement": "57"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "e157484cd12781c5601e70c4f93a4c22e561e602",
-        "fields": {
-            "tmoy": 8.35,
-            "departement": "Charente-Maritime",
-            "tmin": 6.4,
-            "date_obs": "2023-02-02",
-            "tmax": 10.29,
-            "code_insee_departement": "17"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "4cd6e86fe511e8791e7e6a1dff9ccec2fa78ca15",
-        "fields": {
-            "tmoy": 6.8,
-            "departement": "Val-de-Marne",
-            "tmin": 3.8,
-            "date_obs": "2023-02-02",
-            "tmax": 9.8,
-            "code_insee_departement": "94"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "21920334b55b0ebd5fb03208514992301c251eda",
-        "fields": {
-            "tmoy": 8.45,
-            "departement": "Alpes-de-Haute-Provence",
-            "tmin": 3.8,
-            "date_obs": "2023-02-02",
-            "tmax": 13.1,
-            "code_insee_departement": "04"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "f35552f1dc47aa78636758c4ee24647c64a752a5",
-        "fields": {
-            "tmoy": 5.45,
-            "departement": "Haute-Vienne",
-            "tmin": 3.9,
-            "date_obs": "2023-02-02",
-            "tmax": 7,
-            "code_insee_departement": "87"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "dcb03027391d8055c2797af1cb13604752ab3db5",
-        "fields": {
-            "tmoy": 3.05,
-            "departement": "Aveyron",
-            "tmin": -4.2,
-            "date_obs": "2023-02-03",
-            "tmax": 10.3,
-            "code_insee_departement": "12"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "cf2c37c652c06f46909b80b9a5dc6f2e02bd0f30",
-        "fields": {
-            "tmoy": 6.7,
-            "departement": "Vienne",
-            "tmin": 4.1,
-            "date_obs": "2023-02-03",
-            "tmax": 9.3,
-            "code_insee_departement": "86"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "a5a737f0523147ede65ca34358cf84c71b0c8c15",
-        "fields": {
-            "tmoy": 6.58,
-            "departement": "Vosges",
-            "tmin": 4.47,
-            "date_obs": "2023-02-03",
-            "tmax": 8.7,
-            "code_insee_departement": "88"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "579d873378d4457cb8286f978d201f6491e4acff",
-        "fields": {
-            "tmoy": 5.5,
-            "departement": "Puy-de-Dôme",
-            "tmin": 1.7,
-            "date_obs": "2023-02-03",
-            "tmax": 9.3,
-            "code_insee_departement": "63"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "a2d854c177abfe2218ffd743534598d3518fde48",
-        "fields": {
-            "tmoy": 3.6,
-            "departement": "Gers",
-            "tmin": -4,
-            "date_obs": "2023-02-03",
-            "tmax": 11.2,
-            "code_insee_departement": "32"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "03163fb5f336f2441fd80c09ea0dd6d9722db5e0",
-        "fields": {
-            "tmoy": 3.75,
-            "departement": "Lozère",
-            "tmin": -2.5,
-            "date_obs": "2023-02-03",
-            "tmax": 10,
-            "code_insee_departement": "48"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "debac622605c25eec5e8fae610895696dbabd057",
-        "fields": {
-            "tmoy": 2,
-            "departement": "Cantal",
-            "tmin": -6.5,
-            "date_obs": "2023-02-03",
-            "tmax": 10.5,
-            "code_insee_departement": "15"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "a5635692906e72c92f8c1d53f0b0745d27ecac55",
-        "fields": {
-            "tmoy": 7.62,
-            "departement": "Marne",
-            "tmin": 6.3,
-            "date_obs": "2023-02-03",
-            "tmax": 8.95,
-            "code_insee_departement": "51"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "47b6fd1ca7673a446843fd4bb6883dd75d2a8730",
-        "fields": {
-            "tmoy": 7.3,
-            "departement": "Nièvre",
-            "tmin": 4.8,
-            "date_obs": "2023-02-03",
-            "tmax": 9.8,
-            "code_insee_departement": "58"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "eafa70f60bb1ec3c9294cd8a189223f280358749",
-        "fields": {
-            "tmoy": 8.9,
-            "departement": "Mayenne",
-            "tmin": 6.9,
-            "date_obs": "2023-02-03",
-            "tmax": 10.9,
-            "code_insee_departement": "53"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "bbd448070add7dbed6fc0ed2ecc85c08dd7d6aaf",
-        "fields": {
-            "tmoy": 6.38,
-            "departement": "Haute-Marne",
-            "tmin": 4.8,
-            "date_obs": "2023-02-03",
-            "tmax": 7.95,
-            "code_insee_departement": "52"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "cbfb8dce0fee2415b2e47b4799759b2f19576261",
-        "fields": {
-            "tmoy": 7.32,
-            "departement": "Meuse",
-            "tmin": 6.17,
-            "date_obs": "2023-02-03",
-            "tmax": 8.47,
-            "code_insee_departement": "55"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "aadc2682e63722624853564ab09100d2b05a99d0",
-        "fields": {
-            "tmoy": 4.5,
-            "departement": "Ariège",
-            "tmin": -4.4,
-            "date_obs": "2023-02-03",
-            "tmax": 13.4,
-            "code_insee_departement": "09"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "934601bacd851540ae30f46dff5049f8e4d3dab6",
-        "fields": {
-            "tmoy": 8.55,
-            "departement": "Eure",
-            "tmin": 6.6,
-            "date_obs": "2023-02-03",
-            "tmax": 10.5,
-            "code_insee_departement": "27"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "6fff191daa81a10a0566590e666291ef96b4d6b4",
-        "fields": {
-            "tmoy": 9.2,
-            "departement": "Bouches-du-Rhône",
-            "tmin": 4.85,
-            "date_obs": "2023-02-03",
-            "tmax": 13.55,
-            "code_insee_departement": "13"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "49a80622fe3476079f659e86ec3b7327045b2fc5",
-        "fields": {
-            "tmoy": 3.14,
-            "departement": "Haute-Savoie",
-            "tmin": -2.38,
-            "date_obs": "2023-02-03",
-            "tmax": 8.67,
-            "code_insee_departement": "74"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "c6e40aaf43d985379a52d86ece52c6bc1c1636c4",
-        "fields": {
-            "tmoy": 8.1,
-            "departement": "Essonne",
-            "tmin": 6.2,
-            "date_obs": "2023-02-03",
-            "tmax": 10,
-            "code_insee_departement": "91"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "52098b4098f640ec9149a5bc1bc4044381b0b7c3",
-        "fields": {
-            "tmoy": 9.96,
-            "departement": "Alpes-Maritimes",
-            "tmin": 5.67,
-            "date_obs": "2023-02-03",
-            "tmax": 14.25,
-            "code_insee_departement": "06"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "e58120b18b1fad8bda1d275118c536e47c65b58a",
-        "fields": {
-            "tmoy": 5.9,
-            "departement": "Territoire de Belfort",
-            "tmin": 3.6,
-            "date_obs": "2023-02-03",
-            "tmax": 8.2,
-            "code_insee_departement": "90"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "d12a3a43e85133ad2c4993ce453c7da16d0d2dca",
-        "fields": {
-            "tmoy": 5.62,
-            "departement": "Landes",
-            "tmin": -1.3,
-            "date_obs": "2023-02-03",
-            "tmax": 12.53,
-            "code_insee_departement": "40"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "1a7f8b63e2b16a022ce0fda028955bcfc712e64a",
-        "fields": {
-            "tmoy": 14.48,
-            "departement": "Pyrénées-Orientales",
-            "tmin": 9.75,
-            "date_obs": "2023-02-03",
-            "tmax": 19.2,
-            "code_insee_departement": "66"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "7204aa580c709477de390da65157e166df58055f",
-        "fields": {
-            "tmoy": 7.3,
-            "departement": "Deux-Sèvres",
-            "tmin": 5.4,
-            "date_obs": "2023-02-03",
-            "tmax": 9.2,
-            "code_insee_departement": "79"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "b31e8f79b7921cd44091117240cb150c7a40a13c",
-        "fields": {
-            "tmoy": 3.88,
-            "departement": "Dordogne",
-            "tmin": -4.45,
-            "date_obs": "2023-02-03",
-            "tmax": 12.2,
-            "code_insee_departement": "24"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "0e7cf8896149c2845e652631a0574c08ca00ad96",
-        "fields": {
-            "tmoy": 7.2,
-            "departement": "Hauts-de-Seine",
-            "tmin": 5.3,
-            "date_obs": "2023-02-03",
-            "tmax": 9.1,
-            "code_insee_departement": "92"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "4a1e4549c92155912e46b665166936de88c90d38",
-        "fields": {
-            "tmoy": 8.1,
-            "departement": "Hauts-de-Seine",
-            "tmin": 7.2,
-            "date_obs": "2023-02-04",
-            "tmax": 9,
-            "code_insee_departement": "92"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "f2b8baef6ba7ff77dc0eb12acfdca4a583fc55e0",
-        "fields": {
-            "tmoy": 4.32,
-            "departement": "Isère",
-            "tmin": -1.65,
-            "date_obs": "2023-02-04",
-            "tmax": 10.3,
-            "code_insee_departement": "38"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "d2615f6db7d7c8b911a02e098a3d59fc6529dc35",
-        "fields": {
-            "tmoy": 4.78,
-            "departement": "Gironde",
-            "tmin": -0.57,
-            "date_obs": "2023-02-04",
-            "tmax": 10.13,
-            "code_insee_departement": "33"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "383226f545209f873d716b976ee91656c208d476",
-        "fields": {
-            "tmoy": 9.1,
-            "departement": "Indre-et-Loire",
-            "tmin": 7.5,
-            "date_obs": "2023-02-04",
-            "tmax": 10.7,
-            "code_insee_departement": "37"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "65bdf3b33898180238b1e7e492db4e34e6cef311",
-        "fields": {
-            "tmoy": 8.4,
-            "departement": "Meuse",
-            "tmin": 7.03,
-            "date_obs": "2023-02-04",
-            "tmax": 9.77,
-            "code_insee_departement": "55"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "5ce8ae5ce0f6d8b91e3c968d2b86fda84b763fe1",
-        "fields": {
-            "tmoy": 4.7,
-            "departement": "Allier",
-            "tmin": 0.3,
-            "date_obs": "2023-02-04",
-            "tmax": 9.1,
-            "code_insee_departement": "03"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "4a93fc8585eee91b876ca11416b1500be68a1c26",
-        "fields": {
-            "tmoy": 7.1,
-            "departement": "Rhône",
-            "tmin": 3.6,
-            "date_obs": "2023-02-04",
-            "tmax": 10.6,
-            "code_insee_departement": "69"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "0267b6dfb28a79b279927ff4112cb0b318ff4150",
-        "fields": {
-            "tmoy": 9.05,
-            "departement": "Aisne",
-            "tmin": 7.5,
-            "date_obs": "2023-02-04",
-            "tmax": 10.6,
-            "code_insee_departement": "02"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "8b058466902b4e832bff527c1b389124c1feca02",
-        "fields": {
-            "tmoy": 8.95,
-            "departement": "Somme",
-            "tmin": 7.7,
-            "date_obs": "2023-02-04",
-            "tmax": 10.2,
-            "code_insee_departement": "80"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "d73215c6a41fe506ed2248a48a73a7cc8354d821",
-        "fields": {
-            "tmoy": 6.95,
-            "departement": "Deux-Sèvres",
-            "tmin": 3.1,
-            "date_obs": "2023-02-04",
-            "tmax": 10.8,
-            "code_insee_departement": "79"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "b1dbd54fb416552d8f4c5e389df92ac506fc730e",
-        "fields": {
-            "tmoy": 9.05,
-            "departement": "Val-de-Marne",
-            "tmin": 8.5,
-            "date_obs": "2023-02-04",
-            "tmax": 9.6,
-            "code_insee_departement": "94"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "b28ce83ed2f704c08230958f87aa2b009253baef",
-        "fields": {
-            "tmoy": 8.65,
-            "departement": "Ardennes",
-            "tmin": 7.4,
-            "date_obs": "2023-02-04",
-            "tmax": 9.9,
-            "code_insee_departement": "08"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "c08f6f1a377c84054c5d0b144710608d1d95e7f0",
-        "fields": {
-            "tmoy": 6.15,
-            "departement": "Oise",
-            "tmin": 3.63,
-            "date_obs": "2023-02-05",
-            "tmax": 8.68,
-            "code_insee_departement": "60"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "3ff9187fb2fe3ed36ebd7a7d6fa27c0d7c8dae4d",
-        "fields": {
-            "tmoy": 5.98,
-            "departement": "Isère",
-            "tmin": 1.75,
-            "date_obs": "2023-02-05",
-            "tmax": 10.2,
-            "code_insee_departement": "38"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "b84b4400c2eda3c0b2820abdb479a98ae804aebf",
-        "fields": {
-            "tmoy": 6.65,
-            "departement": "Orne",
-            "tmin": 3.6,
-            "date_obs": "2023-02-05",
-            "tmax": 9.7,
-            "code_insee_departement": "61"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "ed55e16a9f880f560d2c257bea747b969afe26f3",
-        "fields": {
-            "tmoy": 10,
-            "departement": "Drôme",
-            "tmin": 7.3,
-            "date_obs": "2023-02-05",
-            "tmax": 12.7,
-            "code_insee_departement": "26"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "d28ad7bc54cf7469b2730b5c4b1a85350aae2029",
-        "fields": {
-            "tmoy": 10.05,
-            "departement": "Charente",
-            "tmin": 7.7,
-            "date_obs": "2023-02-05",
-            "tmax": 12.4,
-            "code_insee_departement": "16"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "dc012d5b9f4008520b44f8b84d925e025990864b",
-        "fields": {
-            "tmoy": 8.35,
-            "departement": "Sarthe",
-            "tmin": 5.2,
-            "date_obs": "2023-02-05",
-            "tmax": 11.5,
-            "code_insee_departement": "72"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "a32c0862d151c8f454d41809cb01abbcac7c270c",
-        "fields": {
-            "tmoy": 8.05,
-            "departement": "Puy-de-Dôme",
-            "tmin": 6.4,
-            "date_obs": "2023-02-05",
-            "tmax": 9.7,
-            "code_insee_departement": "63"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "d7ac7433207918b9206499fee211481ecd783f7e",
-        "fields": {
-            "tmoy": 8.08,
-            "departement": "Côtes-d'Armor",
-            "tmin": 6.17,
-            "date_obs": "2023-02-05",
-            "tmax": 10,
-            "code_insee_departement": "22"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "fd5c0db11120af3a2c6c1f189b35f25ee518686b",
-        "fields": {
-            "tmoy": 4.9,
-            "departement": "Lot",
-            "tmin": -0.2,
-            "date_obs": "2023-02-05",
-            "tmax": 10,
-            "code_insee_departement": "46"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "69d346f037c2c8867be6abbfffb8912dc373d09d",
-        "fields": {
-            "tmoy": 3.3,
-            "departement": "Hautes-Alpes",
-            "tmin": -2.9,
-            "date_obs": "2023-02-05",
-            "tmax": 9.5,
-            "code_insee_departement": "05"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "979b68fef2804eab4f5b6f2a385c537c1306e81b",
-        "fields": {
-            "tmoy": 5.25,
-            "departement": "Savoie",
-            "tmin": -0.25,
-            "date_obs": "2023-02-05",
-            "tmax": 10.75,
-            "code_insee_departement": "73"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "cb8370316016405b23beacc74eb69c34cecf6a1a",
-        "fields": {
-            "tmoy": 8.95,
-            "departement": "Vienne",
-            "tmin": 6.1,
-            "date_obs": "2023-02-05",
-            "tmax": 11.8,
-            "code_insee_departement": "86"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "562c9edeb4b0a1fb7aff71cf6b7cf83486819138",
-        "fields": {
-            "tmoy": 10.91,
-            "departement": "Corse-du-Sud",
-            "tmin": 6.74,
-            "date_obs": "2023-02-05",
-            "tmax": 15.08,
-            "code_insee_departement": "2A"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "d71c92ccdeae1d573a83e7d7303ac952cb9520f5",
-        "fields": {
-            "tmoy": 7.83,
-            "departement": "Nord",
-            "tmin": 6.7,
-            "date_obs": "2023-02-05",
-            "tmax": 8.95,
-            "code_insee_departement": "59"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "5e1127c260b7cee48a25d89a0a0b9ff0835fd6f3",
-        "fields": {
-            "tmoy": 9.22,
-            "departement": "Aude",
-            "tmin": 6.65,
-            "date_obs": "2023-02-05",
-            "tmax": 11.8,
-            "code_insee_departement": "11"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "6fb82fc088ed063a193c2a1a9b26ba47f6885d96",
-        "fields": {
-            "tmoy": 1.55,
-            "departement": "Haut-Rhin",
-            "tmin": -2.45,
-            "date_obs": "2023-02-05",
-            "tmax": 5.55,
-            "code_insee_departement": "68"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "5dcd32f0b163001f0d35ae52277b87b5dfa1048f",
-        "fields": {
-            "tmoy": 4.7,
-            "departement": "Ariège",
-            "tmin": -0.3,
-            "date_obs": "2023-02-05",
-            "tmax": 9.7,
-            "code_insee_departement": "09"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "5c3003d39718a1c9e5d54ca322771a1305896f47",
-        "fields": {
-            "tmoy": 7.22,
-            "departement": "Calvados",
-            "tmin": 5.6,
-            "date_obs": "2023-02-05",
-            "tmax": 8.84,
-            "code_insee_departement": "14"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "5d81f492ef3725f75131e31a0d6a0ea477d7d408",
-        "fields": {
-            "tmoy": 9.5,
-            "departement": "Gironde",
-            "tmin": 7.33,
-            "date_obs": "2023-02-05",
-            "tmax": 11.67,
-            "code_insee_departement": "33"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "f87d5ab62df0c935b7555aa4543851b03e34fa98",
-        "fields": {
-            "tmoy": 10.53,
-            "departement": "Alpes-Maritimes",
-            "tmin": 7.18,
-            "date_obs": "2023-02-05",
-            "tmax": 13.88,
-            "code_insee_departement": "06"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "cb69289ffb7b577c687a4bf71e5dc103c736923c",
-        "fields": {
-            "tmoy": 6.98,
-            "departement": "Somme",
-            "tmin": 5.1,
-            "date_obs": "2023-02-05",
-            "tmax": 8.85,
-            "code_insee_departement": "80"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "a869ab730f8ecfc2b99793bb994d0788ead09f9b",
-        "fields": {
-            "tmoy": 6.42,
-            "departement": "Marne",
-            "tmin": 4.6,
-            "date_obs": "2023-02-05",
-            "tmax": 8.25,
-            "code_insee_departement": "51"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "38116f87910a3087bcaf4edd9dec81e8a4a9c06d",
-        "fields": {
-            "tmoy": 6.75,
-            "departement": "Aisne",
-            "tmin": 4.8,
-            "date_obs": "2023-02-05",
-            "tmax": 8.7,
-            "code_insee_departement": "02"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "06a655169498326c5bc0892aa55645200a36fa9d",
-        "fields": {
-            "tmoy": 8.15,
-            "departement": "Indre-et-Loire",
-            "tmin": 5.4,
-            "date_obs": "2023-02-05",
-            "tmax": 10.9,
-            "code_insee_departement": "37"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "b76b3eeaf4049a9233b4f6a44f0365262fd2e342",
-        "fields": {
-            "tmoy": 2.65,
-            "departement": "Haute-Saône",
-            "tmin": -2.3,
-            "date_obs": "2023-02-06",
-            "tmax": 7.6,
-            "code_insee_departement": "70"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "f83505c20a3f102df994a16c0829044caf495c5f",
-        "fields": {
-            "tmoy": 3.4,
-            "departement": "Vienne",
-            "tmin": -1.4,
-            "date_obs": "2023-02-06",
-            "tmax": 8.2,
-            "code_insee_departement": "86"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "08a21db5ed062ac60802ec8463b6aec171a68d12",
-        "fields": {
-            "tmoy": 1.35,
-            "departement": "Haute-Loire",
-            "tmin": 0.6,
-            "date_obs": "2023-02-06",
-            "tmax": 2.1,
-            "code_insee_departement": "43"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "d066a2b0de7e886aa8bf8088c36d84ab7578cd39",
-        "fields": {
-            "tmoy": 4.7,
-            "departement": "Seine-Saint-Denis",
-            "tmin": 1.2,
-            "date_obs": "2023-02-06",
-            "tmax": 8.2,
-            "code_insee_departement": "93"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "97f89f031491589d83c71be15799897d81af0331",
-        "fields": {
-            "tmoy": 6.38,
-            "departement": "Morbihan",
-            "tmin": 3.1,
-            "date_obs": "2023-02-06",
-            "tmax": 9.67,
-            "code_insee_departement": "56"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "ed0480b7ab079e8341ca24da46882fe5f26a0360",
-        "fields": {
-            "tmoy": 3.33,
-            "departement": "Vosges",
-            "tmin": 0.07,
-            "date_obs": "2023-02-06",
-            "tmax": 6.6,
-            "code_insee_departement": "88"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "3a1a32d8b9e18896e703cb34d2df22d07238a9ea",
-        "fields": {
-            "tmoy": 3.7,
-            "departement": "Aisne",
-            "tmin": 0.3,
-            "date_obs": "2023-02-06",
-            "tmax": 7.1,
-            "code_insee_departement": "02"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "9d33c755fe47ec264bd131575a4b095f0b6c5f6f",
-        "fields": {
-            "tmoy": 3.85,
-            "departement": "Loiret",
-            "tmin": 0.2,
-            "date_obs": "2023-02-06",
-            "tmax": 7.5,
-            "code_insee_departement": "45"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "006ab711199ec7a03e95698b760b7aeb1930945e",
-        "fields": {
-            "tmoy": 4.1,
-            "departement": "Moselle",
-            "tmin": 1.8,
-            "date_obs": "2023-02-06",
-            "tmax": 6.4,
-            "code_insee_departement": "57"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "cfb8176c736fb5edb73ff9b1765ef27a0c14cc8d",
-        "fields": {
-            "tmoy": 4.8,
-            "departement": "Indre-et-Loire",
-            "tmin": 1.6,
-            "date_obs": "2023-02-06",
-            "tmax": 8,
-            "code_insee_departement": "37"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "7c48c10c5dede8d425ffebc398a705a6d9475a9d",
-        "fields": {
-            "tmoy": 4.15,
-            "departement": "Haute-Vienne",
-            "tmin": 1.2,
-            "date_obs": "2023-02-06",
-            "tmax": 7.1,
-            "code_insee_departement": "87"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "c2063ea23b3829f8c0e10b4d1c84b135e48c8a9f",
-        "fields": {
-            "tmoy": 2.97,
-            "departement": "Eure-et-Loir",
-            "tmin": -0.35,
-            "date_obs": "2023-02-06",
-            "tmax": 6.3,
-            "code_insee_departement": "28"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "0196dd5e4a1e5b947c282ddecbf8f89f5d29e0af",
-        "fields": {
-            "tmoy": 5.15,
-            "departement": "Puy-de-Dôme",
-            "tmin": 3.3,
-            "date_obs": "2023-02-06",
-            "tmax": 7,
-            "code_insee_departement": "63"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "c4c09147584d07c3ac38a88a869154bcf86ba662",
-        "fields": {
-            "tmoy": 4.45,
-            "departement": "Somme",
-            "tmin": 1.1,
-            "date_obs": "2023-02-06",
-            "tmax": 7.8,
-            "code_insee_departement": "80"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "b338c44fa10e647860d5a6ec8c2be35018e90d4a",
-        "fields": {
-            "tmoy": 0.6,
-            "departement": "Indre",
-            "tmin": -6.9,
-            "date_obs": "2023-02-09",
-            "tmax": 8.1,
-            "code_insee_departement": "36"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "d65218e7cb053221b26d431f0a2c6d5016906083",
-        "fields": {
-            "tmoy": -0.35,
-            "departement": "Côte-d'Or",
-            "tmin": -7.3,
-            "date_obs": "2023-02-09",
-            "tmax": 6.6,
-            "code_insee_departement": "21"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "783e87a17ed7aa90ded0b9972559549b4e6db4a9",
-        "fields": {
-            "tmoy": 5.06,
-            "departement": "Bouches-du-Rhône",
-            "tmin": 0.43,
-            "date_obs": "2023-02-09",
-            "tmax": 9.68,
-            "code_insee_departement": "13"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "1f2352152a8ac41f0e283bbdef748dff9188a4bb",
-        "fields": {
-            "tmoy": -1.03,
-            "departement": "Eure-et-Loir",
-            "tmin": -8.65,
-            "date_obs": "2023-02-09",
-            "tmax": 6.6,
-            "code_insee_departement": "28"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "1fa9ce74a2ac5be79adaaa6f13aba6f0516c2379",
-        "fields": {
-            "tmoy": -0.9,
-            "departement": "Marne",
-            "tmin": -7.85,
-            "date_obs": "2023-02-09",
-            "tmax": 6.05,
-            "code_insee_departement": "51"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "35ca9a3f21626bfbd315c7698185dd838a5156d4",
-        "fields": {
-            "tmoy": 2.55,
-            "departement": "Deux-Sèvres",
-            "tmin": -5.2,
-            "date_obs": "2023-02-09",
-            "tmax": 10.3,
-            "code_insee_departement": "79"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "66d6fd5a2d07b76f62130898cf51dcda857fc67f",
-        "fields": {
-            "tmoy": 6.92,
-            "departement": "Côtes-d'Armor",
-            "tmin": 2.6,
-            "date_obs": "2023-02-09",
-            "tmax": 11.23,
-            "code_insee_departement": "22"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "88fc20c006367e528e951c2dc153ee1dedc5435b",
-        "fields": {
-            "tmoy": 0.32,
-            "departement": "Meurthe-et-Moselle",
-            "tmin": -5.9,
-            "date_obs": "2023-02-10",
-            "tmax": 6.55,
-            "code_insee_departement": "54"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "7e743077daab05e3d8ef7b99e0f20e02c284c2d4",
-        "fields": {
-            "tmoy": 1.25,
-            "departement": "Marne",
-            "tmin": -5,
-            "date_obs": "2023-02-10",
-            "tmax": 7.5,
-            "code_insee_departement": "51"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "78f4c6db7b85a87bcf5be8b7fff4d102414a3d24",
-        "fields": {
-            "tmoy": 9.65,
-            "departement": "Cher",
-            "tmin": 7.35,
-            "date_obs": "2023-02-23",
-            "tmax": 11.95,
-            "code_insee_departement": "18"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "a827be3260eca7c7cd5f4a85c2063fc28b21e2b3",
-        "fields": {
-            "tmoy": 8.5,
-            "departement": "Paris",
-            "tmin": 6.3,
-            "date_obs": "2023-02-23",
-            "tmax": 10.7,
-            "code_insee_departement": "75"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "6018086f3e842f145b2dbcd9562aeadd3d16f4cd",
-        "fields": {
-            "tmoy": 11.5,
-            "departement": "Corrèze",
-            "tmin": 9.1,
-            "date_obs": "2023-02-23",
-            "tmax": 13.9,
-            "code_insee_departement": "19"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "c2a9b7df2d2ed9730585dc5a8de232184819504f",
-        "fields": {
-            "tmoy": 8.35,
-            "departement": "Haute-Marne",
-            "tmin": 6.9,
-            "date_obs": "2023-02-23",
-            "tmax": 9.8,
-            "code_insee_departement": "52"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "538cf68ed68801f39ae20b361e5cc47473772936",
-        "fields": {
-            "tmoy": 8.95,
-            "departement": "Côte-d'Or",
-            "tmin": 6,
-            "date_obs": "2023-02-23",
-            "tmax": 11.9,
-            "code_insee_departement": "21"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "52385277c8aa7e429a615e9497476ba86483fdc3",
-        "fields": {
-            "tmoy": 10.3,
-            "departement": "Vosges",
-            "tmin": 7.67,
-            "date_obs": "2023-02-23",
-            "tmax": 12.93,
-            "code_insee_departement": "88"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "b4e9054e2df066d358d91e60c96ef3e5d67fdbea",
-        "fields": {
-            "tmoy": 6.96,
-            "departement": "Manche",
-            "tmin": 5.68,
-            "date_obs": "2023-02-24",
-            "tmax": 8.23,
-            "code_insee_departement": "50"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "9160c4fa6d6a08ab2194cff4cf88e349c2ef9889",
-        "fields": {
-            "tmoy": 13.66,
-            "departement": "Bouches-du-Rhône",
-            "tmin": 11.74,
-            "date_obs": "2023-02-24",
-            "tmax": 15.59,
-            "code_insee_departement": "13"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "456803d4048b17a34132af00526cf77682263f54",
-        "fields": {
-            "tmoy": 13.1,
-            "departement": "Corse-du-Sud",
-            "tmin": 10.29,
-            "date_obs": "2023-02-24",
-            "tmax": 15.91,
-            "code_insee_departement": "2A"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "1a0f1592b0da3ebbd77175fcfea377847183dc06",
-        "fields": {
-            "tmoy": 8.3,
-            "departement": "Ille-et-Vilaine",
-            "tmin": 6.5,
-            "date_obs": "2023-02-24",
-            "tmax": 10.1,
-            "code_insee_departement": "35"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "2f6cbd546aa8e672b32631d793fa80889d38e8ed",
-        "fields": {
-            "tmoy": 7.25,
-            "departement": "Vienne",
-            "tmin": 6.1,
-            "date_obs": "2023-02-24",
-            "tmax": 8.4,
-            "code_insee_departement": "86"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "f255c8a0100e0967ebe7a34dc4a93d10e793f469",
-        "fields": {
-            "tmoy": 8.4,
-            "departement": "Seine-Saint-Denis",
-            "tmin": 6.1,
-            "date_obs": "2023-02-24",
-            "tmax": 10.7,
-            "code_insee_departement": "93"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "0f2858282340e84bf3c8330027f50e49a894ee27",
-        "fields": {
-            "tmoy": 11.7,
-            "departement": "Ain",
-            "tmin": 5.4,
-            "date_obs": "2023-02-24",
-            "tmax": 18,
-            "code_insee_departement": "01"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "d35dc6edee50701b9055ce67a01ffd9b7793e196",
-        "fields": {
-            "tmoy": 7.53,
-            "departement": "Yvelines",
-            "tmin": 5.33,
-            "date_obs": "2023-02-24",
-            "tmax": 9.73,
-            "code_insee_departement": "78"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "80b24b2716f09f5e9ab574b3e09dacbe72150eb4",
-        "fields": {
-            "tmoy": 6.4,
-            "departement": "Eure",
-            "tmin": 3.1,
-            "date_obs": "2023-02-24",
-            "tmax": 9.7,
-            "code_insee_departement": "27"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "b1768f81283b626a34dc8d47ee1f80f93fe34599",
-        "fields": {
-            "tmoy": 7.17,
-            "departement": "Oise",
-            "tmin": 4.56,
-            "date_obs": "2023-02-24",
-            "tmax": 9.78,
-            "code_insee_departement": "60"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "fe7c7a0e635dbb1f952eef1f24d4b9fb583150ee",
-        "fields": {
-            "tmoy": 9.38,
-            "departement": "Aude",
-            "tmin": 5.95,
-            "date_obs": "2023-02-24",
-            "tmax": 12.8,
-            "code_insee_departement": "11"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "8ca66c3cc66a540cdae0ed7a395b83e4589b5789",
-        "fields": {
-            "tmoy": 10.68,
-            "departement": "Isère",
-            "tmin": 3.7,
-            "date_obs": "2023-02-24",
-            "tmax": 17.65,
-            "code_insee_departement": "38"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "54cf4a3c619234e2a2b0d5d394f9321b792c64f6",
-        "fields": {
-            "tmoy": 7.72,
-            "departement": "Haute-Savoie",
-            "tmin": 2.79,
-            "date_obs": "2023-02-24",
-            "tmax": 12.66,
-            "code_insee_departement": "74"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "2483b8abbc917808f63b8b797992dea5f8f12c48",
-        "fields": {
-            "tmoy": 6.48,
-            "departement": "Manche",
-            "tmin": 5.52,
-            "date_obs": "2023-02-25",
-            "tmax": 7.44,
-            "code_insee_departement": "50"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "8a303f6a865a26e740aa36ddcf806b18ebeaacef",
-        "fields": {
-            "tmoy": 6.95,
-            "departement": "Ain",
-            "tmin": 2.5,
-            "date_obs": "2023-02-25",
-            "tmax": 11.4,
-            "code_insee_departement": "01"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "07354f5b94f9334ebad5fbcb083761dac7d5ca0e",
-        "fields": {
-            "tmoy": 5.25,
-            "departement": "Haute-Saône",
-            "tmin": 2.7,
-            "date_obs": "2023-02-25",
-            "tmax": 7.8,
-            "code_insee_departement": "70"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "7c5499f273e78093ad91c198853dddf12207a36a",
-        "fields": {
-            "tmoy": 7.13,
-            "departement": "Loire-Atlantique",
-            "tmin": 5.76,
-            "date_obs": "2023-02-25",
-            "tmax": 8.5,
-            "code_insee_departement": "44"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "bed32257536c81a0096afc0015d6dbd81578c2e8",
-        "fields": {
-            "tmoy": 4.8,
-            "departement": "Dordogne",
-            "tmin": -2.7,
-            "date_obs": "2023-02-25",
-            "tmax": 12.3,
-            "code_insee_departement": "24"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "6278678b76dafb94844d1fd49407da15581a7ac6",
-        "fields": {
-            "tmoy": 4.45,
-            "departement": "Nièvre",
-            "tmin": 0.4,
-            "date_obs": "2023-02-25",
-            "tmax": 8.5,
-            "code_insee_departement": "58"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "5e7f901b079300c864daf55e30621c2e7926f836",
-        "fields": {
-            "tmoy": 1.65,
-            "departement": "Tarn",
-            "tmin": -1.6,
-            "date_obs": "2023-02-25",
-            "tmax": 4.9,
-            "code_insee_departement": "81"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "0778ceb20ec3ea8c41df7e4f7065c68d50918e08",
-        "fields": {
-            "tmoy": 6.5,
-            "departement": "Jura",
-            "tmin": 4.4,
-            "date_obs": "2023-02-25",
-            "tmax": 8.6,
-            "code_insee_departement": "39"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "239ff81be243db25a3579641ebdc5abb65dd9bae",
-        "fields": {
-            "tmoy": 6.18,
-            "departement": "Finistère",
-            "tmin": 4.13,
-            "date_obs": "2023-02-26",
-            "tmax": 8.23,
-            "code_insee_departement": "29"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "7f95c536c6bacd806450c818fb0734150b256f06",
-        "fields": {
-            "tmoy": 2,
-            "departement": "Val-d'Oise",
-            "tmin": -1.73,
-            "date_obs": "2023-02-26",
-            "tmax": 5.73,
-            "code_insee_departement": "95"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "07df58595e491992cd4aaf4463275c2e52db53a1",
-        "fields": {
-            "tmoy": 2.75,
-            "departement": "Isère",
-            "tmin": 0.55,
-            "date_obs": "2023-02-26",
-            "tmax": 4.95,
-            "code_insee_departement": "38"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "1fc1a145f8de234692eae6a68cfa6e8c94bfc52e",
-        "fields": {
-            "tmoy": 5.3,
-            "departement": "Côtes-d'Armor",
-            "tmin": 3.53,
-            "date_obs": "2023-02-26",
-            "tmax": 7.07,
-            "code_insee_departement": "22"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    },
-    {
-        "datasetid": "temperature-quotidienne-departementale",
-        "recordid": "bc8859f527253ae12d636ed6527455dcf5122a9e",
-        "fields": {
-            "tmoy": 9.51,
-            "departement": "Var",
-            "tmin": 6.53,
-            "date_obs": "2023-02-26",
-            "tmax": 12.49,
-            "code_insee_departement": "83"
-        },
-        "record_timestamp": "2023-03-02T02:00:00+01:00"
-    }
-]
+{
+    "nhits": 63,
+    "parameters": {
+        "dataset": "temperature-quotidienne-departementale",
+        "q": [
+            "code_insee_departement:06",
+            "date_obs:[2022-12-01 TO 2023-02-01]"
+        ],
+        "rows": 10,
+        "start": 0,
+        "sort": [
+            "-date_obs"
+        ],
+        "facet": [
+            "date_obs",
+            "departement"
+        ],
+        "format": "json",
+        "timezone": "Europe/Paris"
+    },
+    "records": [
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "7463e909953263589965a8878c5c7319e6e4a357",
+            "fields": {
+                "tmoy": 0.95,
+                "departement": "Aube",
+                "tmin": -1.8,
+                "date_obs": "2023-02-28",
+                "tmax": 3.7,
+                "code_insee_departement": "10"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "018f0ab22cb52d488b91ee20b2574fb5fbb6a51b",
+            "fields": {
+                "tmoy": 5.55,
+                "departement": "Bouches-du-Rhône",
+                "tmin": 3.88,
+                "date_obs": "2023-02-28",
+                "tmax": 7.21,
+                "code_insee_departement": "13"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "307b430cf636d2af21c0f25f7a50e342b438fc6a",
+            "fields": {
+                "tmoy": -4.2,
+                "departement": "Haute-Loire",
+                "tmin": -7.4,
+                "date_obs": "2023-02-28",
+                "tmax": -1,
+                "code_insee_departement": "43"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "8a87c3d667cbcf1a7faf95be800fd7f8ebbcfdbc",
+            "fields": {
+                "tmoy": 2.9,
+                "departement": "Sarthe",
+                "tmin": -1.8,
+                "date_obs": "2023-02-28",
+                "tmax": 7.6,
+                "code_insee_departement": "72"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "e697efcbe5c150d4d6426d63f80058d9996b6ecb",
+            "fields": {
+                "tmoy": 1.27,
+                "departement": "Somme",
+                "tmin": -2.05,
+                "date_obs": "2023-02-28",
+                "tmax": 4.6,
+                "code_insee_departement": "80"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "3a576b1673b1ab9e6c48cf1d1cecb5fc139d88cb",
+            "fields": {
+                "tmoy": 3.68,
+                "departement": "Loire-Atlantique",
+                "tmin": -0.78,
+                "date_obs": "2023-02-28",
+                "tmax": 8.14,
+                "code_insee_departement": "44"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "105e1c4f95fdab47a1ccc54f6d3f1829ba4f73b1",
+            "fields": {
+                "tmoy": -0.85,
+                "departement": "Lot",
+                "tmin": -6.6,
+                "date_obs": "2023-02-28",
+                "tmax": 4.9,
+                "code_insee_departement": "46"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "47e6a0b51c2e8256943623f298dd5b0389861db9",
+            "fields": {
+                "tmoy": -2.25,
+                "departement": "Lozère",
+                "tmin": -6.2,
+                "date_obs": "2023-02-28",
+                "tmax": 1.7,
+                "code_insee_departement": "48"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "c89d8722de26b4579bb678f507791e2a57c208a5",
+            "fields": {
+                "tmoy": 2.6,
+                "departement": "Maine-et-Loire",
+                "tmin": -2.4,
+                "date_obs": "2023-02-28",
+                "tmax": 7.6,
+                "code_insee_departement": "49"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "cb291463fcbf5912bc48d58b2d227bfb360194ac",
+            "fields": {
+                "tmoy": 1.75,
+                "departement": "Pas-de-Calais",
+                "tmin": 0,
+                "date_obs": "2023-02-28",
+                "tmax": 3.5,
+                "code_insee_departement": "62"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "6e3d81f8c6b6127de7fdf8b4e27df676339805f9",
+            "fields": {
+                "tmoy": 2.25,
+                "departement": "Haute-Savoie",
+                "tmin": -1.5,
+                "date_obs": "2023-02-01",
+                "tmax": 5.99,
+                "code_insee_departement": "74"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "8d3eacc8743f896398946216b1a12a5c07ad178f",
+            "fields": {
+                "tmoy": 5.78,
+                "departement": "Saône-et-Loire",
+                "tmin": 3.2,
+                "date_obs": "2023-02-01",
+                "tmax": 8.35,
+                "code_insee_departement": "71"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "0a67710da93799e9fca5f2be13a55f9ccad00c6d",
+            "fields": {
+                "tmoy": 11.58,
+                "departement": "Pyrénées-Orientales",
+                "tmin": 9.05,
+                "date_obs": "2023-02-01",
+                "tmax": 14.1,
+                "code_insee_departement": "66"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "96896e5904e13a7ebed89d3a20222c5be81daf49",
+            "fields": {
+                "tmoy": 7.74,
+                "departement": "Calvados",
+                "tmin": 5.32,
+                "date_obs": "2023-02-01",
+                "tmax": 10.15,
+                "code_insee_departement": "14"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "9fe28b58b597779f47d477db99455e62ddd40f27",
+            "fields": {
+                "tmoy": 7.65,
+                "departement": "Charente",
+                "tmin": 2.5,
+                "date_obs": "2023-02-01",
+                "tmax": 12.8,
+                "code_insee_departement": "16"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "9d1714cdb593a1a8dee4a850c76f03e86acc79f0",
+            "fields": {
+                "tmoy": 8.5,
+                "departement": "Paris",
+                "tmin": 6.8,
+                "date_obs": "2023-02-01",
+                "tmax": 10.2,
+                "code_insee_departement": "75"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "0c5bcb3ae9d0f14d051cb93632075582cb8595cb",
+            "fields": {
+                "tmoy": 7.8,
+                "departement": "Alpes-de-Haute-Provence",
+                "tmin": 2.8,
+                "date_obs": "2023-02-01",
+                "tmax": 12.8,
+                "code_insee_departement": "04"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "c5c72fb88af76c30e5b1044688fc076d97566750",
+            "fields": {
+                "tmoy": 8.85,
+                "departement": "Vaucluse",
+                "tmin": 5.71,
+                "date_obs": "2023-02-01",
+                "tmax": 12,
+                "code_insee_departement": "84"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "b6d53c23e2994545b470dea264eda881ffd2a978",
+            "fields": {
+                "tmoy": 8.1,
+                "departement": "Tarn-et-Garonne",
+                "tmin": 5.7,
+                "date_obs": "2023-02-01",
+                "tmax": 10.5,
+                "code_insee_departement": "82"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "7250814df3651c73061629fe0ec895cdcf40d059",
+            "fields": {
+                "tmoy": 9.88,
+                "departement": "Alpes-Maritimes",
+                "tmin": 5.95,
+                "date_obs": "2023-02-01",
+                "tmax": 13.81,
+                "code_insee_departement": "06"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "db6dc40954d0dc79492b4c1bd8ab930ed0dc6b7d",
+            "fields": {
+                "tmoy": 6.48,
+                "departement": "Somme",
+                "tmin": 3.95,
+                "date_obs": "2023-02-01",
+                "tmax": 9,
+                "code_insee_departement": "80"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "88a9db235ed00a27a19196b588bf031a24437d59",
+            "fields": {
+                "tmoy": 7.15,
+                "departement": "Ardèche",
+                "tmin": 2.5,
+                "date_obs": "2023-02-01",
+                "tmax": 11.8,
+                "code_insee_departement": "07"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "ed91d795ff42e816e441fcd2193b6ebe759245bf",
+            "fields": {
+                "tmoy": 7.63,
+                "departement": "Charente-Maritime",
+                "tmin": 5.9,
+                "date_obs": "2023-02-01",
+                "tmax": 9.36,
+                "code_insee_departement": "17"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "8d3d5c3585fc27e0da11cbec59421c48b075cfb2",
+            "fields": {
+                "tmoy": 5.75,
+                "departement": "Nièvre",
+                "tmin": 3.9,
+                "date_obs": "2023-02-01",
+                "tmax": 7.6,
+                "code_insee_departement": "58"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "0b0bfbaa4aedbde174a739201ad953686405abb9",
+            "fields": {
+                "tmoy": 8.05,
+                "departement": "Corrèze",
+                "tmin": 5.1,
+                "date_obs": "2023-02-01",
+                "tmax": 11,
+                "code_insee_departement": "19"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "e4ba71bdaa1bd20468d2c77beb3362fb354634e0",
+            "fields": {
+                "tmoy": 6.42,
+                "departement": "Marne",
+                "tmin": 3.7,
+                "date_obs": "2023-02-01",
+                "tmax": 9.15,
+                "code_insee_departement": "51"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "5674e6909a46078026973ca7a7e284eb3955b6ae",
+            "fields": {
+                "tmoy": 7.68,
+                "departement": "Val-d'Oise",
+                "tmin": 5.57,
+                "date_obs": "2023-02-01",
+                "tmax": 9.8,
+                "code_insee_departement": "95"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "a3a69a19b5ee7781833f56fb73aa5b055885b38c",
+            "fields": {
+                "tmoy": 8.85,
+                "departement": "Pas-de-Calais",
+                "tmin": 7.9,
+                "date_obs": "2023-02-02",
+                "tmax": 9.8,
+                "code_insee_departement": "62"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "c9de5710dfe92ab78e9f7c5d26ceb3f1a748daa0",
+            "fields": {
+                "tmoy": 9.25,
+                "departement": "Nord",
+                "tmin": 7.65,
+                "date_obs": "2023-02-02",
+                "tmax": 10.85,
+                "code_insee_departement": "59"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "460b47f6f856c09b1bf09594636d6ed0de775c2d",
+            "fields": {
+                "tmoy": 7.4,
+                "departement": "Bas-Rhin",
+                "tmin": 5.4,
+                "date_obs": "2023-02-02",
+                "tmax": 9.4,
+                "code_insee_departement": "67"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "2ae406042489a118ff14912da074def71130c1ee",
+            "fields": {
+                "tmoy": 0.8,
+                "departement": "Cantal",
+                "tmin": -6.3,
+                "date_obs": "2023-02-02",
+                "tmax": 7.9,
+                "code_insee_departement": "15"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "4866fbaab77ef90c32cdc97942e881e64cabcc2e",
+            "fields": {
+                "tmoy": 6.2,
+                "departement": "Haut-Rhin",
+                "tmin": 4.5,
+                "date_obs": "2023-02-02",
+                "tmax": 7.9,
+                "code_insee_departement": "68"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "7f15d01aaa3f839d8483f978b1f3efa15ec89267",
+            "fields": {
+                "tmoy": 7.8,
+                "departement": "Charente",
+                "tmin": 3.9,
+                "date_obs": "2023-02-02",
+                "tmax": 11.7,
+                "code_insee_departement": "16"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "6e53d13c44b2fd479a6d07cb71b768c2f0f8f2ec",
+            "fields": {
+                "tmoy": 7.3,
+                "departement": "Oise",
+                "tmin": 4.23,
+                "date_obs": "2023-02-02",
+                "tmax": 10.36,
+                "code_insee_departement": "60"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "78cd2d1fa16f5b8aef9cc1fb0629b37b116f294a",
+            "fields": {
+                "tmoy": 4.5,
+                "departement": "Tarn",
+                "tmin": -2.7,
+                "date_obs": "2023-02-02",
+                "tmax": 11.7,
+                "code_insee_departement": "81"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "fa5b94996e9ef04904323a10b0b4d72b62a1e64d",
+            "fields": {
+                "tmoy": 7.3,
+                "departement": "Ardennes",
+                "tmin": 6.2,
+                "date_obs": "2023-02-02",
+                "tmax": 8.4,
+                "code_insee_departement": "08"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "f1d3b6be66c36862bfc426b758e9978c6a46a361",
+            "fields": {
+                "tmoy": 8,
+                "departement": "Paris",
+                "tmin": 5.8,
+                "date_obs": "2023-02-02",
+                "tmax": 10.2,
+                "code_insee_departement": "75"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "3d7dcc1c300872a66d1755b7d50dc34ca78fc75b",
+            "fields": {
+                "tmoy": 8.35,
+                "departement": "Aude",
+                "tmin": 4.35,
+                "date_obs": "2023-02-02",
+                "tmax": 12.35,
+                "code_insee_departement": "11"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "e5a44604bd6921795666632335a842a542d8b7ef",
+            "fields": {
+                "tmoy": 7.02,
+                "departement": "Saône-et-Loire",
+                "tmin": 3.8,
+                "date_obs": "2023-02-02",
+                "tmax": 10.25,
+                "code_insee_departement": "71"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "8b1eb7b38d370cfdcc9d745e8229a217d50da3eb",
+            "fields": {
+                "tmoy": 7.2,
+                "departement": "Corrèze",
+                "tmin": 3.6,
+                "date_obs": "2023-02-02",
+                "tmax": 10.8,
+                "code_insee_departement": "19"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "e1eb8b23c9b311003b12241a5143bd27bd64ce1d",
+            "fields": {
+                "tmoy": 6.15,
+                "departement": "Doubs",
+                "tmin": 3.9,
+                "date_obs": "2023-02-02",
+                "tmax": 8.4,
+                "code_insee_departement": "25"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "1c75a026b3fd94e3e50437f42d235ff945f948c5",
+            "fields": {
+                "tmoy": 4.28,
+                "departement": "Loire",
+                "tmin": 0.24,
+                "date_obs": "2023-02-02",
+                "tmax": 8.32,
+                "code_insee_departement": "42"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "a4184c69caa26833c48cb7b31c1b308b8f21e24e",
+            "fields": {
+                "tmoy": 6.4,
+                "departement": "Jura",
+                "tmin": 4,
+                "date_obs": "2023-02-02",
+                "tmax": 8.8,
+                "code_insee_departement": "39"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "0250b74ae5230a94f9bd9137089edd8b2c9b90ed",
+            "fields": {
+                "tmoy": 6.9,
+                "departement": "Indre",
+                "tmin": 4.7,
+                "date_obs": "2023-02-02",
+                "tmax": 9.1,
+                "code_insee_departement": "36"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "39f30db99d68ad44deb956fd2c49f8807d63fb63",
+            "fields": {
+                "tmoy": 5.1,
+                "departement": "Gers",
+                "tmin": -1,
+                "date_obs": "2023-02-02",
+                "tmax": 11.2,
+                "code_insee_departement": "32"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "9dc8367cd45f8ddd8f3915a26f4be9177fa2b057",
+            "fields": {
+                "tmoy": 5.3,
+                "departement": "Eure-et-Loir",
+                "tmin": 1.4,
+                "date_obs": "2023-02-02",
+                "tmax": 9.2,
+                "code_insee_departement": "28"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "179080ff193c0f1678616845b75d828b3c74a693",
+            "fields": {
+                "tmoy": 7.62,
+                "departement": "Loire-Atlantique",
+                "tmin": 5.23,
+                "date_obs": "2023-02-02",
+                "tmax": 10.02,
+                "code_insee_departement": "44"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "0f31deafd576ad69641313312680ffc556bfba89",
+            "fields": {
+                "tmoy": 5.72,
+                "departement": "Dordogne",
+                "tmin": -0.15,
+                "date_obs": "2023-02-02",
+                "tmax": 11.6,
+                "code_insee_departement": "24"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "71743b371a8dc1d69f0641f7224e8f25780b28df",
+            "fields": {
+                "tmoy": 6.57,
+                "departement": "Meuse",
+                "tmin": 5.47,
+                "date_obs": "2023-02-02",
+                "tmax": 7.67,
+                "code_insee_departement": "55"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "48c024e2e6c3542c37b4bcae391cfea5c4fad66a",
+            "fields": {
+                "tmoy": 6.7,
+                "departement": "Marne",
+                "tmin": 4.65,
+                "date_obs": "2023-02-02",
+                "tmax": 8.75,
+                "code_insee_departement": "51"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "3cad6f2d56ab8722adbc421850e0edc8924c35d9",
+            "fields": {
+                "tmoy": 5.75,
+                "departement": "Loiret",
+                "tmin": 2.4,
+                "date_obs": "2023-02-02",
+                "tmax": 9.1,
+                "code_insee_departement": "45"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "46a7870c748bd234dd37a7cd49af8087224ff446",
+            "fields": {
+                "tmoy": 5.9,
+                "departement": "Moselle",
+                "tmin": 5.1,
+                "date_obs": "2023-02-02",
+                "tmax": 6.7,
+                "code_insee_departement": "57"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "e157484cd12781c5601e70c4f93a4c22e561e602",
+            "fields": {
+                "tmoy": 8.35,
+                "departement": "Charente-Maritime",
+                "tmin": 6.4,
+                "date_obs": "2023-02-02",
+                "tmax": 10.29,
+                "code_insee_departement": "17"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "4cd6e86fe511e8791e7e6a1dff9ccec2fa78ca15",
+            "fields": {
+                "tmoy": 6.8,
+                "departement": "Val-de-Marne",
+                "tmin": 3.8,
+                "date_obs": "2023-02-02",
+                "tmax": 9.8,
+                "code_insee_departement": "94"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "21920334b55b0ebd5fb03208514992301c251eda",
+            "fields": {
+                "tmoy": 8.45,
+                "departement": "Alpes-de-Haute-Provence",
+                "tmin": 3.8,
+                "date_obs": "2023-02-02",
+                "tmax": 13.1,
+                "code_insee_departement": "04"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "f35552f1dc47aa78636758c4ee24647c64a752a5",
+            "fields": {
+                "tmoy": 5.45,
+                "departement": "Haute-Vienne",
+                "tmin": 3.9,
+                "date_obs": "2023-02-02",
+                "tmax": 7,
+                "code_insee_departement": "87"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "dcb03027391d8055c2797af1cb13604752ab3db5",
+            "fields": {
+                "tmoy": 3.05,
+                "departement": "Aveyron",
+                "tmin": -4.2,
+                "date_obs": "2023-02-03",
+                "tmax": 10.3,
+                "code_insee_departement": "12"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "cf2c37c652c06f46909b80b9a5dc6f2e02bd0f30",
+            "fields": {
+                "tmoy": 6.7,
+                "departement": "Vienne",
+                "tmin": 4.1,
+                "date_obs": "2023-02-03",
+                "tmax": 9.3,
+                "code_insee_departement": "86"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "a5a737f0523147ede65ca34358cf84c71b0c8c15",
+            "fields": {
+                "tmoy": 6.58,
+                "departement": "Vosges",
+                "tmin": 4.47,
+                "date_obs": "2023-02-03",
+                "tmax": 8.7,
+                "code_insee_departement": "88"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "579d873378d4457cb8286f978d201f6491e4acff",
+            "fields": {
+                "tmoy": 5.5,
+                "departement": "Puy-de-Dôme",
+                "tmin": 1.7,
+                "date_obs": "2023-02-03",
+                "tmax": 9.3,
+                "code_insee_departement": "63"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "a2d854c177abfe2218ffd743534598d3518fde48",
+            "fields": {
+                "tmoy": 3.6,
+                "departement": "Gers",
+                "tmin": -4,
+                "date_obs": "2023-02-03",
+                "tmax": 11.2,
+                "code_insee_departement": "32"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "03163fb5f336f2441fd80c09ea0dd6d9722db5e0",
+            "fields": {
+                "tmoy": 3.75,
+                "departement": "Lozère",
+                "tmin": -2.5,
+                "date_obs": "2023-02-03",
+                "tmax": 10,
+                "code_insee_departement": "48"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "debac622605c25eec5e8fae610895696dbabd057",
+            "fields": {
+                "tmoy": 2,
+                "departement": "Cantal",
+                "tmin": -6.5,
+                "date_obs": "2023-02-03",
+                "tmax": 10.5,
+                "code_insee_departement": "15"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "a5635692906e72c92f8c1d53f0b0745d27ecac55",
+            "fields": {
+                "tmoy": 7.62,
+                "departement": "Marne",
+                "tmin": 6.3,
+                "date_obs": "2023-02-03",
+                "tmax": 8.95,
+                "code_insee_departement": "51"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "47b6fd1ca7673a446843fd4bb6883dd75d2a8730",
+            "fields": {
+                "tmoy": 7.3,
+                "departement": "Nièvre",
+                "tmin": 4.8,
+                "date_obs": "2023-02-03",
+                "tmax": 9.8,
+                "code_insee_departement": "58"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "eafa70f60bb1ec3c9294cd8a189223f280358749",
+            "fields": {
+                "tmoy": 8.9,
+                "departement": "Mayenne",
+                "tmin": 6.9,
+                "date_obs": "2023-02-03",
+                "tmax": 10.9,
+                "code_insee_departement": "53"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "bbd448070add7dbed6fc0ed2ecc85c08dd7d6aaf",
+            "fields": {
+                "tmoy": 6.38,
+                "departement": "Haute-Marne",
+                "tmin": 4.8,
+                "date_obs": "2023-02-03",
+                "tmax": 7.95,
+                "code_insee_departement": "52"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "cbfb8dce0fee2415b2e47b4799759b2f19576261",
+            "fields": {
+                "tmoy": 7.32,
+                "departement": "Meuse",
+                "tmin": 6.17,
+                "date_obs": "2023-02-03",
+                "tmax": 8.47,
+                "code_insee_departement": "55"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "aadc2682e63722624853564ab09100d2b05a99d0",
+            "fields": {
+                "tmoy": 4.5,
+                "departement": "Ariège",
+                "tmin": -4.4,
+                "date_obs": "2023-02-03",
+                "tmax": 13.4,
+                "code_insee_departement": "09"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "934601bacd851540ae30f46dff5049f8e4d3dab6",
+            "fields": {
+                "tmoy": 8.55,
+                "departement": "Eure",
+                "tmin": 6.6,
+                "date_obs": "2023-02-03",
+                "tmax": 10.5,
+                "code_insee_departement": "27"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "6fff191daa81a10a0566590e666291ef96b4d6b4",
+            "fields": {
+                "tmoy": 9.2,
+                "departement": "Bouches-du-Rhône",
+                "tmin": 4.85,
+                "date_obs": "2023-02-03",
+                "tmax": 13.55,
+                "code_insee_departement": "13"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "49a80622fe3476079f659e86ec3b7327045b2fc5",
+            "fields": {
+                "tmoy": 3.14,
+                "departement": "Haute-Savoie",
+                "tmin": -2.38,
+                "date_obs": "2023-02-03",
+                "tmax": 8.67,
+                "code_insee_departement": "74"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "c6e40aaf43d985379a52d86ece52c6bc1c1636c4",
+            "fields": {
+                "tmoy": 8.1,
+                "departement": "Essonne",
+                "tmin": 6.2,
+                "date_obs": "2023-02-03",
+                "tmax": 10,
+                "code_insee_departement": "91"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "52098b4098f640ec9149a5bc1bc4044381b0b7c3",
+            "fields": {
+                "tmoy": 9.96,
+                "departement": "Alpes-Maritimes",
+                "tmin": 5.67,
+                "date_obs": "2023-02-03",
+                "tmax": 14.25,
+                "code_insee_departement": "06"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "e58120b18b1fad8bda1d275118c536e47c65b58a",
+            "fields": {
+                "tmoy": 5.9,
+                "departement": "Territoire de Belfort",
+                "tmin": 3.6,
+                "date_obs": "2023-02-03",
+                "tmax": 8.2,
+                "code_insee_departement": "90"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "d12a3a43e85133ad2c4993ce453c7da16d0d2dca",
+            "fields": {
+                "tmoy": 5.62,
+                "departement": "Landes",
+                "tmin": -1.3,
+                "date_obs": "2023-02-03",
+                "tmax": 12.53,
+                "code_insee_departement": "40"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "1a7f8b63e2b16a022ce0fda028955bcfc712e64a",
+            "fields": {
+                "tmoy": 14.48,
+                "departement": "Pyrénées-Orientales",
+                "tmin": 9.75,
+                "date_obs": "2023-02-03",
+                "tmax": 19.2,
+                "code_insee_departement": "66"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "7204aa580c709477de390da65157e166df58055f",
+            "fields": {
+                "tmoy": 7.3,
+                "departement": "Deux-Sèvres",
+                "tmin": 5.4,
+                "date_obs": "2023-02-03",
+                "tmax": 9.2,
+                "code_insee_departement": "79"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "b31e8f79b7921cd44091117240cb150c7a40a13c",
+            "fields": {
+                "tmoy": 3.88,
+                "departement": "Dordogne",
+                "tmin": -4.45,
+                "date_obs": "2023-02-03",
+                "tmax": 12.2,
+                "code_insee_departement": "24"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "0e7cf8896149c2845e652631a0574c08ca00ad96",
+            "fields": {
+                "tmoy": 7.2,
+                "departement": "Hauts-de-Seine",
+                "tmin": 5.3,
+                "date_obs": "2023-02-03",
+                "tmax": 9.1,
+                "code_insee_departement": "92"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "4a1e4549c92155912e46b665166936de88c90d38",
+            "fields": {
+                "tmoy": 8.1,
+                "departement": "Hauts-de-Seine",
+                "tmin": 7.2,
+                "date_obs": "2023-02-04",
+                "tmax": 9,
+                "code_insee_departement": "92"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "f2b8baef6ba7ff77dc0eb12acfdca4a583fc55e0",
+            "fields": {
+                "tmoy": 4.32,
+                "departement": "Isère",
+                "tmin": -1.65,
+                "date_obs": "2023-02-04",
+                "tmax": 10.3,
+                "code_insee_departement": "38"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "d2615f6db7d7c8b911a02e098a3d59fc6529dc35",
+            "fields": {
+                "tmoy": 4.78,
+                "departement": "Gironde",
+                "tmin": -0.57,
+                "date_obs": "2023-02-04",
+                "tmax": 10.13,
+                "code_insee_departement": "33"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "383226f545209f873d716b976ee91656c208d476",
+            "fields": {
+                "tmoy": 9.1,
+                "departement": "Indre-et-Loire",
+                "tmin": 7.5,
+                "date_obs": "2023-02-04",
+                "tmax": 10.7,
+                "code_insee_departement": "37"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "65bdf3b33898180238b1e7e492db4e34e6cef311",
+            "fields": {
+                "tmoy": 8.4,
+                "departement": "Meuse",
+                "tmin": 7.03,
+                "date_obs": "2023-02-04",
+                "tmax": 9.77,
+                "code_insee_departement": "55"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "5ce8ae5ce0f6d8b91e3c968d2b86fda84b763fe1",
+            "fields": {
+                "tmoy": 4.7,
+                "departement": "Allier",
+                "tmin": 0.3,
+                "date_obs": "2023-02-04",
+                "tmax": 9.1,
+                "code_insee_departement": "03"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "4a93fc8585eee91b876ca11416b1500be68a1c26",
+            "fields": {
+                "tmoy": 7.1,
+                "departement": "Rhône",
+                "tmin": 3.6,
+                "date_obs": "2023-02-04",
+                "tmax": 10.6,
+                "code_insee_departement": "69"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "0267b6dfb28a79b279927ff4112cb0b318ff4150",
+            "fields": {
+                "tmoy": 9.05,
+                "departement": "Aisne",
+                "tmin": 7.5,
+                "date_obs": "2023-02-04",
+                "tmax": 10.6,
+                "code_insee_departement": "02"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "8b058466902b4e832bff527c1b389124c1feca02",
+            "fields": {
+                "tmoy": 8.95,
+                "departement": "Somme",
+                "tmin": 7.7,
+                "date_obs": "2023-02-04",
+                "tmax": 10.2,
+                "code_insee_departement": "80"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "d73215c6a41fe506ed2248a48a73a7cc8354d821",
+            "fields": {
+                "tmoy": 6.95,
+                "departement": "Deux-Sèvres",
+                "tmin": 3.1,
+                "date_obs": "2023-02-04",
+                "tmax": 10.8,
+                "code_insee_departement": "79"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "b1dbd54fb416552d8f4c5e389df92ac506fc730e",
+            "fields": {
+                "tmoy": 9.05,
+                "departement": "Val-de-Marne",
+                "tmin": 8.5,
+                "date_obs": "2023-02-04",
+                "tmax": 9.6,
+                "code_insee_departement": "94"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "b28ce83ed2f704c08230958f87aa2b009253baef",
+            "fields": {
+                "tmoy": 8.65,
+                "departement": "Ardennes",
+                "tmin": 7.4,
+                "date_obs": "2023-02-04",
+                "tmax": 9.9,
+                "code_insee_departement": "08"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "c08f6f1a377c84054c5d0b144710608d1d95e7f0",
+            "fields": {
+                "tmoy": 6.15,
+                "departement": "Oise",
+                "tmin": 3.63,
+                "date_obs": "2023-02-05",
+                "tmax": 8.68,
+                "code_insee_departement": "60"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "3ff9187fb2fe3ed36ebd7a7d6fa27c0d7c8dae4d",
+            "fields": {
+                "tmoy": 5.98,
+                "departement": "Isère",
+                "tmin": 1.75,
+                "date_obs": "2023-02-05",
+                "tmax": 10.2,
+                "code_insee_departement": "38"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "b84b4400c2eda3c0b2820abdb479a98ae804aebf",
+            "fields": {
+                "tmoy": 6.65,
+                "departement": "Orne",
+                "tmin": 3.6,
+                "date_obs": "2023-02-05",
+                "tmax": 9.7,
+                "code_insee_departement": "61"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "ed55e16a9f880f560d2c257bea747b969afe26f3",
+            "fields": {
+                "tmoy": 10,
+                "departement": "Drôme",
+                "tmin": 7.3,
+                "date_obs": "2023-02-05",
+                "tmax": 12.7,
+                "code_insee_departement": "26"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "d28ad7bc54cf7469b2730b5c4b1a85350aae2029",
+            "fields": {
+                "tmoy": 10.05,
+                "departement": "Charente",
+                "tmin": 7.7,
+                "date_obs": "2023-02-05",
+                "tmax": 12.4,
+                "code_insee_departement": "16"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "dc012d5b9f4008520b44f8b84d925e025990864b",
+            "fields": {
+                "tmoy": 8.35,
+                "departement": "Sarthe",
+                "tmin": 5.2,
+                "date_obs": "2023-02-05",
+                "tmax": 11.5,
+                "code_insee_departement": "72"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "a32c0862d151c8f454d41809cb01abbcac7c270c",
+            "fields": {
+                "tmoy": 8.05,
+                "departement": "Puy-de-Dôme",
+                "tmin": 6.4,
+                "date_obs": "2023-02-05",
+                "tmax": 9.7,
+                "code_insee_departement": "63"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "d7ac7433207918b9206499fee211481ecd783f7e",
+            "fields": {
+                "tmoy": 8.08,
+                "departement": "Côtes-d'Armor",
+                "tmin": 6.17,
+                "date_obs": "2023-02-05",
+                "tmax": 10,
+                "code_insee_departement": "22"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "fd5c0db11120af3a2c6c1f189b35f25ee518686b",
+            "fields": {
+                "tmoy": 4.9,
+                "departement": "Lot",
+                "tmin": -0.2,
+                "date_obs": "2023-02-05",
+                "tmax": 10,
+                "code_insee_departement": "46"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "69d346f037c2c8867be6abbfffb8912dc373d09d",
+            "fields": {
+                "tmoy": 3.3,
+                "departement": "Hautes-Alpes",
+                "tmin": -2.9,
+                "date_obs": "2023-02-05",
+                "tmax": 9.5,
+                "code_insee_departement": "05"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "979b68fef2804eab4f5b6f2a385c537c1306e81b",
+            "fields": {
+                "tmoy": 5.25,
+                "departement": "Savoie",
+                "tmin": -0.25,
+                "date_obs": "2023-02-05",
+                "tmax": 10.75,
+                "code_insee_departement": "73"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "cb8370316016405b23beacc74eb69c34cecf6a1a",
+            "fields": {
+                "tmoy": 8.95,
+                "departement": "Vienne",
+                "tmin": 6.1,
+                "date_obs": "2023-02-05",
+                "tmax": 11.8,
+                "code_insee_departement": "86"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "562c9edeb4b0a1fb7aff71cf6b7cf83486819138",
+            "fields": {
+                "tmoy": 10.91,
+                "departement": "Corse-du-Sud",
+                "tmin": 6.74,
+                "date_obs": "2023-02-05",
+                "tmax": 15.08,
+                "code_insee_departement": "2A"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "d71c92ccdeae1d573a83e7d7303ac952cb9520f5",
+            "fields": {
+                "tmoy": 7.83,
+                "departement": "Nord",
+                "tmin": 6.7,
+                "date_obs": "2023-02-05",
+                "tmax": 8.95,
+                "code_insee_departement": "59"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "5e1127c260b7cee48a25d89a0a0b9ff0835fd6f3",
+            "fields": {
+                "tmoy": 9.22,
+                "departement": "Aude",
+                "tmin": 6.65,
+                "date_obs": "2023-02-05",
+                "tmax": 11.8,
+                "code_insee_departement": "11"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "6fb82fc088ed063a193c2a1a9b26ba47f6885d96",
+            "fields": {
+                "tmoy": 1.55,
+                "departement": "Haut-Rhin",
+                "tmin": -2.45,
+                "date_obs": "2023-02-05",
+                "tmax": 5.55,
+                "code_insee_departement": "68"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "5dcd32f0b163001f0d35ae52277b87b5dfa1048f",
+            "fields": {
+                "tmoy": 4.7,
+                "departement": "Ariège",
+                "tmin": -0.3,
+                "date_obs": "2023-02-05",
+                "tmax": 9.7,
+                "code_insee_departement": "09"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "5c3003d39718a1c9e5d54ca322771a1305896f47",
+            "fields": {
+                "tmoy": 7.22,
+                "departement": "Calvados",
+                "tmin": 5.6,
+                "date_obs": "2023-02-05",
+                "tmax": 8.84,
+                "code_insee_departement": "14"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "5d81f492ef3725f75131e31a0d6a0ea477d7d408",
+            "fields": {
+                "tmoy": 9.5,
+                "departement": "Gironde",
+                "tmin": 7.33,
+                "date_obs": "2023-02-05",
+                "tmax": 11.67,
+                "code_insee_departement": "33"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "f87d5ab62df0c935b7555aa4543851b03e34fa98",
+            "fields": {
+                "tmoy": 10.53,
+                "departement": "Alpes-Maritimes",
+                "tmin": 7.18,
+                "date_obs": "2023-02-05",
+                "tmax": 13.88,
+                "code_insee_departement": "06"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "cb69289ffb7b577c687a4bf71e5dc103c736923c",
+            "fields": {
+                "tmoy": 6.98,
+                "departement": "Somme",
+                "tmin": 5.1,
+                "date_obs": "2023-02-05",
+                "tmax": 8.85,
+                "code_insee_departement": "80"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "a869ab730f8ecfc2b99793bb994d0788ead09f9b",
+            "fields": {
+                "tmoy": 6.42,
+                "departement": "Marne",
+                "tmin": 4.6,
+                "date_obs": "2023-02-05",
+                "tmax": 8.25,
+                "code_insee_departement": "51"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "38116f87910a3087bcaf4edd9dec81e8a4a9c06d",
+            "fields": {
+                "tmoy": 6.75,
+                "departement": "Aisne",
+                "tmin": 4.8,
+                "date_obs": "2023-02-05",
+                "tmax": 8.7,
+                "code_insee_departement": "02"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "06a655169498326c5bc0892aa55645200a36fa9d",
+            "fields": {
+                "tmoy": 8.15,
+                "departement": "Indre-et-Loire",
+                "tmin": 5.4,
+                "date_obs": "2023-02-05",
+                "tmax": 10.9,
+                "code_insee_departement": "37"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "b76b3eeaf4049a9233b4f6a44f0365262fd2e342",
+            "fields": {
+                "tmoy": 2.65,
+                "departement": "Haute-Saône",
+                "tmin": -2.3,
+                "date_obs": "2023-02-06",
+                "tmax": 7.6,
+                "code_insee_departement": "70"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "f83505c20a3f102df994a16c0829044caf495c5f",
+            "fields": {
+                "tmoy": 3.4,
+                "departement": "Vienne",
+                "tmin": -1.4,
+                "date_obs": "2023-02-06",
+                "tmax": 8.2,
+                "code_insee_departement": "86"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "08a21db5ed062ac60802ec8463b6aec171a68d12",
+            "fields": {
+                "tmoy": 1.35,
+                "departement": "Haute-Loire",
+                "tmin": 0.6,
+                "date_obs": "2023-02-06",
+                "tmax": 2.1,
+                "code_insee_departement": "43"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "d066a2b0de7e886aa8bf8088c36d84ab7578cd39",
+            "fields": {
+                "tmoy": 4.7,
+                "departement": "Seine-Saint-Denis",
+                "tmin": 1.2,
+                "date_obs": "2023-02-06",
+                "tmax": 8.2,
+                "code_insee_departement": "93"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "97f89f031491589d83c71be15799897d81af0331",
+            "fields": {
+                "tmoy": 6.38,
+                "departement": "Morbihan",
+                "tmin": 3.1,
+                "date_obs": "2023-02-06",
+                "tmax": 9.67,
+                "code_insee_departement": "56"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "ed0480b7ab079e8341ca24da46882fe5f26a0360",
+            "fields": {
+                "tmoy": 3.33,
+                "departement": "Vosges",
+                "tmin": 0.07,
+                "date_obs": "2023-02-06",
+                "tmax": 6.6,
+                "code_insee_departement": "88"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "3a1a32d8b9e18896e703cb34d2df22d07238a9ea",
+            "fields": {
+                "tmoy": 3.7,
+                "departement": "Aisne",
+                "tmin": 0.3,
+                "date_obs": "2023-02-06",
+                "tmax": 7.1,
+                "code_insee_departement": "02"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "9d33c755fe47ec264bd131575a4b095f0b6c5f6f",
+            "fields": {
+                "tmoy": 3.85,
+                "departement": "Loiret",
+                "tmin": 0.2,
+                "date_obs": "2023-02-06",
+                "tmax": 7.5,
+                "code_insee_departement": "45"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "006ab711199ec7a03e95698b760b7aeb1930945e",
+            "fields": {
+                "tmoy": 4.1,
+                "departement": "Moselle",
+                "tmin": 1.8,
+                "date_obs": "2023-02-06",
+                "tmax": 6.4,
+                "code_insee_departement": "57"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "cfb8176c736fb5edb73ff9b1765ef27a0c14cc8d",
+            "fields": {
+                "tmoy": 4.8,
+                "departement": "Indre-et-Loire",
+                "tmin": 1.6,
+                "date_obs": "2023-02-06",
+                "tmax": 8,
+                "code_insee_departement": "37"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "7c48c10c5dede8d425ffebc398a705a6d9475a9d",
+            "fields": {
+                "tmoy": 4.15,
+                "departement": "Haute-Vienne",
+                "tmin": 1.2,
+                "date_obs": "2023-02-06",
+                "tmax": 7.1,
+                "code_insee_departement": "87"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "c2063ea23b3829f8c0e10b4d1c84b135e48c8a9f",
+            "fields": {
+                "tmoy": 2.97,
+                "departement": "Eure-et-Loir",
+                "tmin": -0.35,
+                "date_obs": "2023-02-06",
+                "tmax": 6.3,
+                "code_insee_departement": "28"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "0196dd5e4a1e5b947c282ddecbf8f89f5d29e0af",
+            "fields": {
+                "tmoy": 5.15,
+                "departement": "Puy-de-Dôme",
+                "tmin": 3.3,
+                "date_obs": "2023-02-06",
+                "tmax": 7,
+                "code_insee_departement": "63"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "c4c09147584d07c3ac38a88a869154bcf86ba662",
+            "fields": {
+                "tmoy": 4.45,
+                "departement": "Somme",
+                "tmin": 1.1,
+                "date_obs": "2023-02-06",
+                "tmax": 7.8,
+                "code_insee_departement": "80"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "b338c44fa10e647860d5a6ec8c2be35018e90d4a",
+            "fields": {
+                "tmoy": 0.6,
+                "departement": "Indre",
+                "tmin": -6.9,
+                "date_obs": "2023-02-09",
+                "tmax": 8.1,
+                "code_insee_departement": "36"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "d65218e7cb053221b26d431f0a2c6d5016906083",
+            "fields": {
+                "tmoy": -0.35,
+                "departement": "Côte-d'Or",
+                "tmin": -7.3,
+                "date_obs": "2023-02-09",
+                "tmax": 6.6,
+                "code_insee_departement": "21"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "783e87a17ed7aa90ded0b9972559549b4e6db4a9",
+            "fields": {
+                "tmoy": 5.06,
+                "departement": "Bouches-du-Rhône",
+                "tmin": 0.43,
+                "date_obs": "2023-02-09",
+                "tmax": 9.68,
+                "code_insee_departement": "13"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "1f2352152a8ac41f0e283bbdef748dff9188a4bb",
+            "fields": {
+                "tmoy": -1.03,
+                "departement": "Eure-et-Loir",
+                "tmin": -8.65,
+                "date_obs": "2023-02-09",
+                "tmax": 6.6,
+                "code_insee_departement": "28"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "1fa9ce74a2ac5be79adaaa6f13aba6f0516c2379",
+            "fields": {
+                "tmoy": -0.9,
+                "departement": "Marne",
+                "tmin": -7.85,
+                "date_obs": "2023-02-09",
+                "tmax": 6.05,
+                "code_insee_departement": "51"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "35ca9a3f21626bfbd315c7698185dd838a5156d4",
+            "fields": {
+                "tmoy": 2.55,
+                "departement": "Deux-Sèvres",
+                "tmin": -5.2,
+                "date_obs": "2023-02-09",
+                "tmax": 10.3,
+                "code_insee_departement": "79"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "66d6fd5a2d07b76f62130898cf51dcda857fc67f",
+            "fields": {
+                "tmoy": 6.92,
+                "departement": "Côtes-d'Armor",
+                "tmin": 2.6,
+                "date_obs": "2023-02-09",
+                "tmax": 11.23,
+                "code_insee_departement": "22"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "88fc20c006367e528e951c2dc153ee1dedc5435b",
+            "fields": {
+                "tmoy": 0.32,
+                "departement": "Meurthe-et-Moselle",
+                "tmin": -5.9,
+                "date_obs": "2023-02-10",
+                "tmax": 6.55,
+                "code_insee_departement": "54"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "7e743077daab05e3d8ef7b99e0f20e02c284c2d4",
+            "fields": {
+                "tmoy": 1.25,
+                "departement": "Marne",
+                "tmin": -5,
+                "date_obs": "2023-02-10",
+                "tmax": 7.5,
+                "code_insee_departement": "51"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "78f4c6db7b85a87bcf5be8b7fff4d102414a3d24",
+            "fields": {
+                "tmoy": 9.65,
+                "departement": "Cher",
+                "tmin": 7.35,
+                "date_obs": "2023-02-23",
+                "tmax": 11.95,
+                "code_insee_departement": "18"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "a827be3260eca7c7cd5f4a85c2063fc28b21e2b3",
+            "fields": {
+                "tmoy": 8.5,
+                "departement": "Paris",
+                "tmin": 6.3,
+                "date_obs": "2023-02-23",
+                "tmax": 10.7,
+                "code_insee_departement": "75"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "6018086f3e842f145b2dbcd9562aeadd3d16f4cd",
+            "fields": {
+                "tmoy": 11.5,
+                "departement": "Corrèze",
+                "tmin": 9.1,
+                "date_obs": "2023-02-23",
+                "tmax": 13.9,
+                "code_insee_departement": "19"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "c2a9b7df2d2ed9730585dc5a8de232184819504f",
+            "fields": {
+                "tmoy": 8.35,
+                "departement": "Haute-Marne",
+                "tmin": 6.9,
+                "date_obs": "2023-02-23",
+                "tmax": 9.8,
+                "code_insee_departement": "52"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "538cf68ed68801f39ae20b361e5cc47473772936",
+            "fields": {
+                "tmoy": 8.95,
+                "departement": "Côte-d'Or",
+                "tmin": 6,
+                "date_obs": "2023-02-23",
+                "tmax": 11.9,
+                "code_insee_departement": "21"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "52385277c8aa7e429a615e9497476ba86483fdc3",
+            "fields": {
+                "tmoy": 10.3,
+                "departement": "Vosges",
+                "tmin": 7.67,
+                "date_obs": "2023-02-23",
+                "tmax": 12.93,
+                "code_insee_departement": "88"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "b4e9054e2df066d358d91e60c96ef3e5d67fdbea",
+            "fields": {
+                "tmoy": 6.96,
+                "departement": "Manche",
+                "tmin": 5.68,
+                "date_obs": "2023-02-24",
+                "tmax": 8.23,
+                "code_insee_departement": "50"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "9160c4fa6d6a08ab2194cff4cf88e349c2ef9889",
+            "fields": {
+                "tmoy": 13.66,
+                "departement": "Bouches-du-Rhône",
+                "tmin": 11.74,
+                "date_obs": "2023-02-24",
+                "tmax": 15.59,
+                "code_insee_departement": "13"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "456803d4048b17a34132af00526cf77682263f54",
+            "fields": {
+                "tmoy": 13.1,
+                "departement": "Corse-du-Sud",
+                "tmin": 10.29,
+                "date_obs": "2023-02-24",
+                "tmax": 15.91,
+                "code_insee_departement": "2A"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "1a0f1592b0da3ebbd77175fcfea377847183dc06",
+            "fields": {
+                "tmoy": 8.3,
+                "departement": "Ille-et-Vilaine",
+                "tmin": 6.5,
+                "date_obs": "2023-02-24",
+                "tmax": 10.1,
+                "code_insee_departement": "35"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "2f6cbd546aa8e672b32631d793fa80889d38e8ed",
+            "fields": {
+                "tmoy": 7.25,
+                "departement": "Vienne",
+                "tmin": 6.1,
+                "date_obs": "2023-02-24",
+                "tmax": 8.4,
+                "code_insee_departement": "86"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "f255c8a0100e0967ebe7a34dc4a93d10e793f469",
+            "fields": {
+                "tmoy": 8.4,
+                "departement": "Seine-Saint-Denis",
+                "tmin": 6.1,
+                "date_obs": "2023-02-24",
+                "tmax": 10.7,
+                "code_insee_departement": "93"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "0f2858282340e84bf3c8330027f50e49a894ee27",
+            "fields": {
+                "tmoy": 11.7,
+                "departement": "Ain",
+                "tmin": 5.4,
+                "date_obs": "2023-02-24",
+                "tmax": 18,
+                "code_insee_departement": "01"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "d35dc6edee50701b9055ce67a01ffd9b7793e196",
+            "fields": {
+                "tmoy": 7.53,
+                "departement": "Yvelines",
+                "tmin": 5.33,
+                "date_obs": "2023-02-24",
+                "tmax": 9.73,
+                "code_insee_departement": "78"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "80b24b2716f09f5e9ab574b3e09dacbe72150eb4",
+            "fields": {
+                "tmoy": 6.4,
+                "departement": "Eure",
+                "tmin": 3.1,
+                "date_obs": "2023-02-24",
+                "tmax": 9.7,
+                "code_insee_departement": "27"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "b1768f81283b626a34dc8d47ee1f80f93fe34599",
+            "fields": {
+                "tmoy": 7.17,
+                "departement": "Oise",
+                "tmin": 4.56,
+                "date_obs": "2023-02-24",
+                "tmax": 9.78,
+                "code_insee_departement": "60"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "fe7c7a0e635dbb1f952eef1f24d4b9fb583150ee",
+            "fields": {
+                "tmoy": 9.38,
+                "departement": "Aude",
+                "tmin": 5.95,
+                "date_obs": "2023-02-24",
+                "tmax": 12.8,
+                "code_insee_departement": "11"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "8ca66c3cc66a540cdae0ed7a395b83e4589b5789",
+            "fields": {
+                "tmoy": 10.68,
+                "departement": "Isère",
+                "tmin": 3.7,
+                "date_obs": "2023-02-24",
+                "tmax": 17.65,
+                "code_insee_departement": "38"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "54cf4a3c619234e2a2b0d5d394f9321b792c64f6",
+            "fields": {
+                "tmoy": 7.72,
+                "departement": "Haute-Savoie",
+                "tmin": 2.79,
+                "date_obs": "2023-02-24",
+                "tmax": 12.66,
+                "code_insee_departement": "74"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "2483b8abbc917808f63b8b797992dea5f8f12c48",
+            "fields": {
+                "tmoy": 6.48,
+                "departement": "Manche",
+                "tmin": 5.52,
+                "date_obs": "2023-02-25",
+                "tmax": 7.44,
+                "code_insee_departement": "50"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "8a303f6a865a26e740aa36ddcf806b18ebeaacef",
+            "fields": {
+                "tmoy": 6.95,
+                "departement": "Ain",
+                "tmin": 2.5,
+                "date_obs": "2023-02-25",
+                "tmax": 11.4,
+                "code_insee_departement": "01"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "07354f5b94f9334ebad5fbcb083761dac7d5ca0e",
+            "fields": {
+                "tmoy": 5.25,
+                "departement": "Haute-Saône",
+                "tmin": 2.7,
+                "date_obs": "2023-02-25",
+                "tmax": 7.8,
+                "code_insee_departement": "70"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "7c5499f273e78093ad91c198853dddf12207a36a",
+            "fields": {
+                "tmoy": 7.13,
+                "departement": "Loire-Atlantique",
+                "tmin": 5.76,
+                "date_obs": "2023-02-25",
+                "tmax": 8.5,
+                "code_insee_departement": "44"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "bed32257536c81a0096afc0015d6dbd81578c2e8",
+            "fields": {
+                "tmoy": 4.8,
+                "departement": "Dordogne",
+                "tmin": -2.7,
+                "date_obs": "2023-02-25",
+                "tmax": 12.3,
+                "code_insee_departement": "24"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "6278678b76dafb94844d1fd49407da15581a7ac6",
+            "fields": {
+                "tmoy": 4.45,
+                "departement": "Nièvre",
+                "tmin": 0.4,
+                "date_obs": "2023-02-25",
+                "tmax": 8.5,
+                "code_insee_departement": "58"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "5e7f901b079300c864daf55e30621c2e7926f836",
+            "fields": {
+                "tmoy": 1.65,
+                "departement": "Tarn",
+                "tmin": -1.6,
+                "date_obs": "2023-02-25",
+                "tmax": 4.9,
+                "code_insee_departement": "81"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "0778ceb20ec3ea8c41df7e4f7065c68d50918e08",
+            "fields": {
+                "tmoy": 6.5,
+                "departement": "Jura",
+                "tmin": 4.4,
+                "date_obs": "2023-02-25",
+                "tmax": 8.6,
+                "code_insee_departement": "39"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "239ff81be243db25a3579641ebdc5abb65dd9bae",
+            "fields": {
+                "tmoy": 6.18,
+                "departement": "Finistère",
+                "tmin": 4.13,
+                "date_obs": "2023-02-26",
+                "tmax": 8.23,
+                "code_insee_departement": "29"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "7f95c536c6bacd806450c818fb0734150b256f06",
+            "fields": {
+                "tmoy": 2,
+                "departement": "Val-d'Oise",
+                "tmin": -1.73,
+                "date_obs": "2023-02-26",
+                "tmax": 5.73,
+                "code_insee_departement": "95"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "07df58595e491992cd4aaf4463275c2e52db53a1",
+            "fields": {
+                "tmoy": 2.75,
+                "departement": "Isère",
+                "tmin": 0.55,
+                "date_obs": "2023-02-26",
+                "tmax": 4.95,
+                "code_insee_departement": "38"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "1fc1a145f8de234692eae6a68cfa6e8c94bfc52e",
+            "fields": {
+                "tmoy": 5.3,
+                "departement": "Côtes-d'Armor",
+                "tmin": 3.53,
+                "date_obs": "2023-02-26",
+                "tmax": 7.07,
+                "code_insee_departement": "22"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        },
+        {
+            "datasetid": "temperature-quotidienne-departementale",
+            "recordid": "bc8859f527253ae12d636ed6527455dcf5122a9e",
+            "fields": {
+                "tmoy": 9.51,
+                "departement": "Var",
+                "tmin": 6.53,
+                "date_obs": "2023-02-26",
+                "tmax": 12.49,
+                "code_insee_departement": "83"
+            },
+            "record_timestamp": "2023-03-02T02:00:00+01:00"
+        }
+    ]
+}
