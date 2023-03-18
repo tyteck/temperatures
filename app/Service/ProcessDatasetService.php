@@ -33,15 +33,16 @@ class ProcessDatasetService
                         ['code_insee' => $singleDatasetDTO->departement_code_insee],
                         ['nom' => $singleDatasetDTO->departement_nom],
                     );
-
-                    Temperature::create(
+                    Temperature::query()->upsert(
                         [
                             'date_observation' => $singleDatasetDTO->date_observation,
                             'departement_id' => $departement->id,
                             'temperature_moy' => $singleDatasetDTO->temperature_moy,
                             'temperature_min' => $singleDatasetDTO->temperature_min,
                             'temperature_max' => $singleDatasetDTO->temperature_max,
-                        ]
+                        ],
+                        ['departement_id', 'date_observation'],
+                        ['temperature_moy', 'temperature_min', 'temperature_max']
                     );
                 } catch (\Throwable $thrown) {
                     throw $thrown;

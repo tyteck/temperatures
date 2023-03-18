@@ -45,13 +45,18 @@ class OdreQueryBuilderService
         return $this;
     }
 
-    public function forPeriod(string $column, Carbon $from, Carbon $to): static
+    public function forPeriod(string $column, Carbon $from, Carbon $to = null): static
     {
-        $this->params[] = "q={$column}" .
-            urlencode(':[' . $from->format('Y-m-d')) .
-            '+TO+' .
-            urlencode($to->format('Y-m-d') . ']')
-        ;
+        $periodQuery = "q={$column}";
+        if ($to === null) {
+            $periodQuery .= urlencode('>="' . $from->format('Y-m-d') . '"');
+        } else {
+            $periodQuery .= urlencode(':[' . $from->format('Y-m-d')) .
+                '+TO+' .
+                urlencode($to->format('Y-m-d') . ']')
+            ;
+        }
+        $this->params[] = $periodQuery;
 
         return $this;
     }

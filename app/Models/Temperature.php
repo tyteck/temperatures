@@ -23,6 +23,10 @@ class Temperature extends Model
 
     public $guarded = ['id'];
 
+    protected $dates = [
+        'date_observation',
+    ];
+
     public function departement(): BelongsTo
     {
         return $this->belongsTo(Departement::class);

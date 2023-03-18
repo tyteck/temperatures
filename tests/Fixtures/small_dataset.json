@@ -1,10 +1,11 @@
 {
+    "mocked": true,
     "nhits": 63,
     "parameters": {
         "dataset": "temperature-quotidienne-departementale",
         "q": [
             "code_insee_departement:06",
-            "date_obs:[2022-12-01 TO 2023-02-01]"
+            "date_obs:[2019-10-22 TO 2019-10-23]"
         ],
         "rows": 10,
         "start": 0,

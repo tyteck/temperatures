@@ -9,6 +9,7 @@ use App\Exceptions\InvalidDatasetException;
 use Carbon\Carbon;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\File;
+use Tests\Enums\FixtureFile;
 use Tests\TestCase;
 
 /**
@@ -21,7 +22,7 @@ class DatasetDTOTest extends TestCase
     /** @test */
     public function single_dataset_should_be_parsed_properly(): void
     {
-        $dataset = File::get(fixtures_path('single_dataset.json'));
+        $dataset = File::get(FixtureFile::SINGLE_DATASET->path());
 
         $datasetDto = DatasetDTO::from($dataset);
 
@@ -48,7 +49,7 @@ class DatasetDTOTest extends TestCase
     /** @test */
     public function small_dataset_should_be_parsed_properly(): void
     {
-        $dataset = File::get(fixtures_path('small_dataset.json'));
+        $dataset = File::get(FixtureFile::SMALL_DATASET->path());
 
         $datasetDto = DatasetDTO::from($dataset);
 

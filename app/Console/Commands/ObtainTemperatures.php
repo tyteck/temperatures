@@ -6,11 +6,11 @@ namespace App\Console\Commands;
 
 use App\Enums\SortWay;
 use App\Exceptions\OdreApiDateIsNotAvailableException;
-use App\Models\Departement;
 use App\Service\OdreQueryBuilderService;
 use App\Service\ProcessDatasetService;
 use Carbon\Carbon;
 use Illuminate\Console\Command;
+use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;
 
 class ObtainTemperatures extends Command
@@ -24,8 +24,7 @@ class ObtainTemperatures extends Command
      */
     protected $signature = 'temperatures:get 
                             {since : getting temperatures since date specified with format Y-m-d.} 
-                            {to? : getting temperatures to date specified with format Y-m-d.}
-                            {department? : specific departement or all}'
+                            {to? : getting temperatures to date specified with format Y-m-d.}'
     ;
 
     /**
@@ -42,29 +41,22 @@ class ObtainTemperatures extends Command
     {
         try {
             // since
-            $since = Carbon::createFromFormat(self::PERIOD_FORMAT, $this->argument('since'))->startOfMonth()->startOfDay();
+            $since = Carbon::createFromFormat(self::PERIOD_FORMAT, $this->argument('since'));
             throw_if(
-                $since->isBefore(Carbon::createMidnightDate(2018, 1, 1)) || $since->isAfter(now()->startOfDay()),
-                new OdreApiDateIsNotAvailableException('ODRE api is only available from January 2018 to yesterday.')
+                $since->isBefore(Carbon::createMidnightDate(2018, 1, 1))
+                || $since->isAfter(now()->startOfDay()->subMonth()->endOfMonth()),
+                new OdreApiDateIsNotAvailableException('ODRE api is only available from January 2018 to the end of previous month.')
             );
 
             // end period
             $to = $this->argument('to') ?
-                Carbon::createFromFormat(self::PERIOD_FORMAT, $this->argument('to'))->startOfMonth()->startOfDay() :
+                Carbon::createFromFormat(self::PERIOD_FORMAT, $this->argument('to')) :
                 $since->copy()->addMonth()
             ;
 
-            // get departements
-            $query = Departement::query();
-            if ($this->argument('department')) {
-                $query->where('code_insee', $this->argument('department'));
-            }
-            $departments = $query->get();
-            dd($departments);
             // build query
             $odreQuery = OdreQueryBuilderService::create(config('temperatures.dataset'), 31)
                 ->addFacet('date_obs', 'departement')
-                ->addQuery('code_insee_departement', '06')
                 ->forPeriod('date_obs', $since, $to)
                 ->timezone(config('temperatures.timezone'))
                 ->sortedBy('date_obs', SortWay::ASC)
@@ -72,7 +64,7 @@ class ObtainTemperatures extends Command
             ;
 
             // file get contents
-            $json = file_get_contents($odreQuery);
+            $json = Http::get($odreQuery)->body();
 
             // process json
             ProcessDatasetService::from($json)->store();

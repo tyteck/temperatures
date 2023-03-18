@@ -9,7 +9,7 @@ use Tests\Enums\FixtureFile;
 
 trait MockOdreApi
 {
-    protected function fakeSingle(): void
+    protected function fakeSingleDataset(): void
     {
         $this->fakeOdreWithFixture(FixtureFile::SINGLE_DATASET);
     }
@@ -24,10 +24,10 @@ trait MockOdreApi
         $this->fakeOdreWithFixture(FixtureFile::LARGE_DATASET);
     }
 
-    protected function fakeOdre(FixtureFile $fixtureFile): void
+    protected function fakeOdreWithFixture(FixtureFile $fixtureFile): void
     {
         Http::fake([
-            'https://odre.opendatasoft.com/*' => Http::response(
+            'https://odre.opendatasoft.com/api/records/1.0/search/*' => Http::response(
                 file_get_contents($fixtureFile->path()),
                 200
             ),

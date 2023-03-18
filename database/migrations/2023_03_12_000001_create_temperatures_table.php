@@ -19,6 +19,7 @@ return new class() extends Migration {
             $table->float('temperature_min', 5, 2);
             $table->float('temperature_max', 5, 2);
             $table->date('date_observation');
+            $table->unique(['departement_id', 'date_observation']);
             $table->timestamps();
         });
     }

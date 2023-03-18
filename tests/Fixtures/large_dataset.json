@@ -1,4 +1,5 @@
 {
+    "mocked": true,
     "nhits": 63,
     "parameters": {
         "dataset": "temperature-quotidienne-departementale",
