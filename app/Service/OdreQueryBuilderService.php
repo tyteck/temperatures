@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App\Service;
 
 use App\Enums\SortWay;
+use App\Models\Departement;
 use Carbon\Carbon;
 
 class OdreQueryBuilderService
@@ -73,6 +74,13 @@ class OdreQueryBuilderService
     public function timezone(string $timezone): static
     {
         $this->params[] = 'timezone=' . urlencode($timezone);
+
+        return $this;
+    }
+
+    public function addDepartment(Departement $departement): static
+    {
+        $this->params[] = "refine.departement={$departement->nom}";
 
         return $this;
     }

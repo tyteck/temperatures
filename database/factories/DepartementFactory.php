@@ -23,4 +23,9 @@ class DepartementFactory extends Factory
             'code_insee' => fake()->numerify('###'),
         ];
     }
+
+    public function name(string $name): static
+    {
+        return $this->set('nom', $name);
+    }
 }
