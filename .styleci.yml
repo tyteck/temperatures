@@ -3,5 +3,3 @@ php:
     finder:
         not-name:
             - index.php
-js: false
-css: false
