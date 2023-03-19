@@ -87,6 +87,7 @@ class ObtainTemperatures extends Command
             ->sortedBy('date_obs', SortWay::ASC)
             ->get()
         ;
+
         // get contents
         $json = Http::get($odreQuery)->body();
 

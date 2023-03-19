@@ -72,6 +72,16 @@ En prod :
 -   Pas de mailcatcher
 -   La BD est sur un cluster autre (renseigné dans la conf)
 
+### Contribuer
+
+Merci d'envisager la contribution au service **temperatures** (nom temporaire).
+
+#### Coding Style
+
+Le projet suit les standard de la [PSR 12](https://www.php-fig.org/psr/psr-12). 
+A ce titre j'utilise php-cs-fixer pour formatter le code en accord avec cette PSR.
+
+
 ## License
 
 Le projet Temperatures est un logiciel open-source sous license [MIT](https://opensource.org/licenses/MIT).
