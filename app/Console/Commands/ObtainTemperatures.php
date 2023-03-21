@@ -14,7 +14,6 @@ use Illuminate\Console\Command;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;
-use Illuminate\Support\Str;
 
 class ObtainTemperatures extends Command
 {
@@ -63,7 +62,7 @@ class ObtainTemperatures extends Command
             ;
 
             // departements
-            $departments = $this->option('departments') ? Str::of($this->option('departments'))->explode(',') : Departement::all();
+            $departments = $this->option('departments') ? Departement::byCodeInsee($this->option('departments')) : Departement::all();
 
             $departments->each(fn (Departement $departement) => $this->processDataset($departement));
         } catch (\Throwable $thrown) {

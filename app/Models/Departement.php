@@ -4,9 +4,11 @@ declare(strict_types=1);
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Support\Str;
 
 /**
  * @property string $code_insee
@@ -23,8 +25,12 @@ class Departement extends Model
         return $this->hasMany(Temperature::class);
     }
 
-    public static function byCodeInsee(string $codeInsee): ?static
+    public static function byCodeInsee($inseeCodes): Collection
     {
-        return self::where('code_insee', $codeInsee)->first();
+        if (!is_array($inseeCodes)) {
+            $inseeCodes = Str::of($inseeCodes)->explode(',');
+        }
+
+        return self::whereIn('code_insee', $inseeCodes)->get();
     }
 }
