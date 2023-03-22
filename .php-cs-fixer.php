@@ -32,17 +32,17 @@ $config = new PhpCsFixer\Config();
 $config
     ->setRiskyAllowed(true)
     ->setRules([
-        '@PSR12' => true,
         '@PHP71Migration:risky' => true,
         '@PHPUnit75Migration:risky' => true,
         '@PhpCsFixer' => true,
         '@PhpCsFixer:risky' => false,
-        'yoda_style' => false,
-        'general_phpdoc_annotation_remove' => ['annotations' => ['expectedDeprecation']],
-        'php_unit_method_casing' => ['case' => 'snake_case'],
-        'concat_space' => ['spacing' => 'one'],
+        '@PSR12' => true,
         'binary_operator_spaces' => ['default' => 'single_space'],
+        'concat_space' => ['spacing' => 'one'],
+        'general_phpdoc_annotation_remove' => ['annotations' => ['expectedDeprecation']],
         'increment_style' => ['style' => 'post'],
+        'php_unit_method_casing' => ['case' => 'snake_case'],
+        'yoda_style' => false,
         // 'header_comment' => ['header' => $header],
     ])
     ->setFinder($finder)
