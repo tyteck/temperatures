@@ -47,6 +47,22 @@ class DateRangeToCollectionServiceTest extends TestCase
     }
 
     /** @test */
+    public function service_is_running_properly_for_one_day(): void
+    {
+        $expectedDate = '2022-02-14';
+        $since = Carbon::createFromFormat('Y-m-d', $expectedDate);
+        $to = clone $since;
+        $results = DateRangeToCollectionService::range($since, $to)->toMonthes();
+
+        $this->assertNotNull($results);
+        $this->assertInstanceOf(Collection::class, $results);
+        $this->assertCount(1, $results);
+
+        $this->assertEquals($since->toDateTimeString(), $expectedDate . ' 00:00:00');
+        $this->assertEquals($to->toDateTimeString(), $expectedDate . ' 23:59:59');
+    }
+
+    /** @test */
     public function when_since_after_to_should_fail(): void
     {
         $since = now()->addMonth();

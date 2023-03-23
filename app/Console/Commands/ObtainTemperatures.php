@@ -4,9 +4,11 @@ declare(strict_types=1);
 
 namespace App\Console\Commands;
 
+use App\DataTransferObjects\DateRangeDTO;
 use App\Enums\SortWay;
 use App\Exceptions\OdreApiDateIsNotAvailableException;
 use App\Models\Departement;
+use App\Service\DateRangeToCollectionService;
 use App\Service\OdreQueryBuilderService;
 use App\Service\ProcessDatasetService;
 use Carbon\Carbon;
@@ -64,7 +66,20 @@ class ObtainTemperatures extends Command
             // departements
             $departments = $this->option('departments') ? Departement::byCodeInsee($this->option('departments')) : Departement::all();
 
-            $departments->each(fn (Departement $departement) => $this->processDataset($departement));
+            throw_unless(
+                $departments->count(),
+                new \RuntimeException("Il n'y a aucun departements en BD ou passé en argument.")
+            );
+
+            $dateRanges = DateRangeToCollectionService::range($this->since, $this->to)->toMonthes();
+
+            $departments->each(
+                // pour chaque département demandé
+                fn (Departement $departement) => $dateRanges->each(
+                    // pour chaque plage de date
+                    fn (DateRangeDTO $dateRange) => $this->processDataset($departement, $dateRange)
+                )
+            );
         } catch (\Throwable $thrown) {
             Log::error($thrown->getMessage());
             $this->error($thrown->getMessage());
@@ -75,13 +90,13 @@ class ObtainTemperatures extends Command
         return Command::SUCCESS;
     }
 
-    protected function processDataset(Departement $departement): void
+    protected function processDataset(Departement $departement, DateRangeDTO $dateRange): void
     {
         // build query
         $odreQuery = OdreQueryBuilderService::create(config('temperatures.dataset'), 31)
             ->addFacet('date_obs', 'departement')
             ->addDepartment($departement)
-            ->forPeriod('date_obs', $this->since, $this->to)
+            ->forPeriod('date_obs', $dateRange->start(), $dateRange->finish())
             ->timezone(config('temperatures.timezone'))
             ->sortedBy('date_obs', SortWay::ASC)
             ->get()

@@ -36,7 +36,7 @@ class DateRangeDTO implements Arrayable
         return [
             'start' => $this->start->toDateString(),
             'finish' => $this->finish->toDateString(),
-            'nb_days' => $this->finish->addSecond()->diffInDays($this->start),
+            'nb_days' => $this->finish->copy()->addSecond()->diffInDays($this->start),
         ];
     }
 

@@ -15,13 +15,15 @@ class DateRangeToCollectionService
     private function __construct(protected Carbon $since, protected ?Carbon $to = null)
     {
         $this->dates = collect();
+        $this->since->startOfDay();
+        $this->to ??= now()->endOfDay();
 
         throw_if($since->isAfter($to), new \InvalidArgumentException('Invalid parameter range. Parameter "since" should be before "to".'));
     }
 
-    public static function range(...$params)
+    public static function range(Carbon $since, ?Carbon $to = null)
     {
-        return new static(...$params);
+        return new static($since, $to);
     }
 
     /**
