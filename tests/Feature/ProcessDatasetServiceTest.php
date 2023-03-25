@@ -7,7 +7,7 @@ namespace Tests\Feature;
 // use Illuminate\Foundation\Testing\RefreshDatabase;
 
 use App\Exceptions\InvalidDatasetException;
-use App\Service\ProcessDatasetService;
+use App\Services\ProcessDatasetService;
 use Carbon\Carbon;
 use Illuminate\Foundation\Testing\LazilyRefreshDatabase;
 use Illuminate\Support\Facades\File;

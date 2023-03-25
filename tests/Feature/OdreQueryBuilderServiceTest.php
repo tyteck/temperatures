@@ -6,7 +6,7 @@ namespace Tests\Feature;
 
 use App\Enums\SortWay;
 use App\Models\Departement;
-use App\Service\OdreQueryBuilderService;
+use App\Services\OdreQueryBuilderService;
 use Carbon\Carbon;
 use Illuminate\Foundation\Testing\LazilyRefreshDatabase;
 use Tests\TestCase;

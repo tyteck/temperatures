@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Tests\Feature;
 
-use App\Service\DateRangeToCollectionService;
+use App\Services\DateRangeToCollectionService;
 use Carbon\Carbon;
 use Illuminate\Support\Collection;
 use Tests\TestCase;
