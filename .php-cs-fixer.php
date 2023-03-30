@@ -42,6 +42,7 @@ $config
         'general_phpdoc_annotation_remove' => ['annotations' => ['expectedDeprecation']],
         'increment_style' => ['style' => 'post'],
         'php_unit_method_casing' => ['case' => 'snake_case'],
+        'php_unit_test_class_requires_covers' => false,
         'yoda_style' => false,
         // 'header_comment' => ['header' => $header],
     ])
