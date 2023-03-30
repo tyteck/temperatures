@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Feature;
+namespace Tests\Feature\Services;
 
 use App\Services\DateRangeToCollectionService;
 use Carbon\Carbon;
