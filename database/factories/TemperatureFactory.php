@@ -25,10 +25,15 @@ class TemperatureFactory extends Factory
 
         return [
             'departement_id' => Departement::factory(),
-            'temperature_moyenne' => fake()->randomFloat(2),
+            'temperature_moy' => fake()->randomFloat(2),
             'temperature_min' => $temperatureMin,
             'temperature_max' => $temperatureMax,
             'date_observation' => Carbon::now(),
         ];
+    }
+
+    public function departement(Departement $departement): static
+    {
+        return $this->set('departement_id', $departement->id);
     }
 }
