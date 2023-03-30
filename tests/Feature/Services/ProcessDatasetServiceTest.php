@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Feature;
+namespace Tests\Feature\Services;
 
 // use Illuminate\Foundation\Testing\RefreshDatabase;
 
