@@ -34,6 +34,11 @@ class TemperatureFactory extends Factory
 
     public function departement(Departement $departement): static
     {
-        return $this->set('departement_id', $departement->id);
+        return $this->state(['departement_id' => $departement->id]);
+    }
+
+    public function dateObservation(Carbon $dateObservation)
+    {
+        return $this->state(['date_observation' => $dateObservation]);
     }
 }
