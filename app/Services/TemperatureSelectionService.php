@@ -23,6 +23,8 @@ class TemperatureSelectionService
         protected PeriodUnits $unit = self::DEFAULT_UNIT
     ) {
         $this->departements = collect();
+        $this->start->startOfDay();
+        $this->end->endOfDay();
     }
 
     public static function period(Carbon $start, Carbon $end, PeriodUnits $unit = self::DEFAULT_UNIT)
@@ -34,7 +36,7 @@ class TemperatureSelectionService
     {
         // default group by
         $periodAlias = 'period';
-        $groupBy = collect([$periodAlias]);
+        $groupBy = [$periodAlias, 'departement_id'];
 
         $query = Temperature::query()
             ->with('departement')
@@ -43,17 +45,15 @@ class TemperatureSelectionService
                 DB::raw('AVG(temperature_moy) as moyenne'),
                 DB::raw($this->selectPeriod('date_observation', $periodAlias))
             )
+            ->whereBetween('date_observation', [$this->start->toDateString(), $this->end->toDateString()])
         ;
 
-        $query
-            ->whereBetween('date_observation', [$this->start, $this->end])
-        ;
-        if (!empty($this->departements)) {
+        if ($this->departements->isNotEmpty()) {
             $query->whereIn('departement_id', $this->departements);
-            $groupBy[] = 'departement_id';
         }
 
-        return $query->groupBy($this->groupByPeriod($groupBy))
+        return $query
+            ->groupBy($groupBy)
             ->get()
         ;
     }
@@ -67,18 +67,8 @@ class TemperatureSelectionService
 
     public function selectPeriod(string $column, string $alias): string
     {
-        if (config('database.default') === 'sqlite') {
-            $format = match ($this->unit) {
-                PeriodUnits::YEAR => '%Y',
-                PeriodUnits::MONTH => '%Y-%m',
-                default => '%Y-%m',
-            };
-
-            return "STRFTIME('{$format}', {$column}) AS {$alias}";
-        }
-
         $format = match ($this->unit) {
-            PeriodUnits::YEAR => '%Y',
+            PeriodUnits::YEAR => "YEAR({$column})",
             PeriodUnits::MONTH => "YEAR({$column}), '-', MONTH({$column})",
             default => "YEAR({$column}), '-', MONTH({$column})",
         };
@@ -88,16 +78,6 @@ class TemperatureSelectionService
 
     public function groupByPeriod(Collection $columns): string
     {
-        /* if (config('database.default') === 'sqlite') {
-            $format = match ($this->unit) {
-                PeriodUnits::YEAR => '%Y',
-                PeriodUnits::MONTH => '%Y-%m',
-                default => '%Y-%m',
-            };
-
-            return "STRFTIME('{$format}', {$columns->first()})";
-        } */
-
         return $columns->implode(', ');
     }
 }

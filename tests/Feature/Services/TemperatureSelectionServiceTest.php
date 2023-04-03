@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Tests\Feature\Services;
 
 use App\Enums\PeriodUnits;
+use App\Models\Departement;
 use App\Models\Temperature;
 use App\Services\TemperatureSelectionService;
 use Carbon\Carbon;
@@ -20,11 +21,13 @@ use Tests\TestCase;
 class TemperatureSelectionServiceTest extends TestCase
 {
     use LazilyRefreshDatabase;
+
     protected TemperatureSelectionServiceTest $service;
 
     public function setUp(): void
     {
         parent::setUp();
+        $this->seedDepartments();
     }
 
     /** @test */
@@ -34,15 +37,7 @@ class TemperatureSelectionServiceTest extends TestCase
         $end = now();
         $alias = 'period';
 
-        // testing default is sqlite
-        $expected = "STRFTIME('%Y-%m', date_observation) AS period";
-        $this->assertEquals(
-            $expected,
-            TemperatureSelectionService::period($start, $end)->setUnit(PeriodUnits::MONTH)->selectPeriod('date_observation', $alias)
-        );
-
         // forcing mysql
-        config(['database.default' => 'mysql']);
         $expected = "CONCAT(YEAR(date_observation), '-', MONTH(date_observation)) as period";
         $this->assertEquals(
             $expected,
@@ -94,16 +89,13 @@ class TemperatureSelectionServiceTest extends TestCase
         $start = Carbon::createFromFormat('Y-m-d', '2018-01-08');
         $end = Carbon::createFromFormat('Y-m-d', '2018-01-15');
 
-        dump(Temperature::all()->toArray());
-        // should have 2 days
-
         ray()->showQueries();
+        // should have 2 days (8-10 january)
         $results = TemperatureSelectionService::period($start, $end)->get();
         $this->assertNotNull($results);
         $this->assertInstanceOf(Collection::class, $results);
         $this->assertCount(2, $results);
     }
-    // temp partially in range
 
     // temp by day
 
@@ -118,11 +110,16 @@ class TemperatureSelectionServiceTest extends TestCase
     | helpers & providers
     |--------------------------------------------------------------------------
     */
-    protected function createSomeTemperatures(Carbon $start, Carbon $end): void
+    protected function createSomeTemperatures(Carbon $start, Carbon $end, ?Departement $department = null): void
     {
+        if ($department === null) {
+            $departments = Departement::query()->take(10)->inRandomOrder()->get();
+        }
+
         $start->startOfDay();
         while ($start->isBefore($end)) {
             Temperature::factory()
+                ->departement($departments->random()->first())
                 ->dateObservation($start)
                 ->create()
             ;

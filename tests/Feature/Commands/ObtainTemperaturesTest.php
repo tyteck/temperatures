@@ -74,7 +74,7 @@ class ObtainTemperaturesTest extends TestCase
             'temperature_moy' => 14.25,
             'temperature_min' => 9.8,
             'temperature_max' => 18.7,
-            'date_observation' => Carbon::createFromFormat('Y-m-d', '2019-10-23'),
+            'date_observation' => Carbon::createFromFormat('Y-m-d', '2019-10-23')->toDateString(),
             'departement_id' => $coteDOr->id,
         ]);
     }

@@ -4,8 +4,6 @@ declare(strict_types=1);
 
 namespace Tests\Feature\Services;
 
-// use Illuminate\Foundation\Testing\RefreshDatabase;
-
 use App\Exceptions\InvalidDatasetException;
 use App\Services\ProcessDatasetService;
 use Carbon\Carbon;
@@ -35,7 +33,7 @@ class ProcessDatasetServiceTest extends TestCase
         $this->assertDatabaseHas('temperatures', [
             'temperature_moy' => 14.25,
             'temperature_min' => 9.8,
-            'date_observation' => Carbon::createFromFormat('Y-m-d', '2019-10-23'),
+            'date_observation' => Carbon::createFromFormat('Y-m-d', '2019-10-23')->toDateString(),
             'temperature_max' => 18.7,
         ]);
 
@@ -58,7 +56,7 @@ class ProcessDatasetServiceTest extends TestCase
         $this->assertDatabaseHas('temperatures', [
             'temperature_moy' => 14.25,
             'temperature_min' => 9.8,
-            'date_observation' => Carbon::createFromFormat('Y-m-d', '2019-10-23'),
+            'date_observation' => Carbon::createFromFormat('Y-m-d', '2019-10-23')->toDateString(),
             'temperature_max' => 18.7,
         ]);
 

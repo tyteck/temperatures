@@ -25,7 +25,7 @@ class TemperatureFactory extends Factory
 
         return [
             'departement_id' => Departement::factory(),
-            'temperature_moy' => fake()->randomFloat(2),
+            'temperature_moy' => fake()->randomFloat(2, min: $temperatureMin, max: $temperatureMax),
             'temperature_min' => $temperatureMin,
             'temperature_max' => $temperatureMax,
             'date_observation' => Carbon::now(),
