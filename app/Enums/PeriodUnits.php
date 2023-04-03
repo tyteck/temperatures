@@ -23,4 +23,24 @@ enum PeriodUnits: int
             self::YEAR => '',
         };
     }
+
+    public function sqlite()
+    {
+        return match ($this) {
+            self::DAY => '',
+            self::WEEK => '',
+            self::MONTH => '%Y-%m',
+            self::YEAR => '',
+        };
+    }
+
+    public function mysql()
+    {
+        return match ($this) {
+            self::DAY => '',
+            self::WEEK => '',
+            self::MONTH => '%Y-%m',
+            self::YEAR => '',
+        };
+    }
 }
