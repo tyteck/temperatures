@@ -19,7 +19,7 @@ class DepartementFactory extends Factory
     public function definition(): array
     {
         return [
-            'nom' => fake()->name(),
+            'nom' => fake()->state(),
             'code_insee' => fake()->numerify('###'),
         ];
     }

@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App\Services;
 
 use App\Enums\PeriodUnits;
+use App\Models\Departement;
 use App\Models\Temperature;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
@@ -23,8 +24,6 @@ class TemperatureSelectionService
         protected PeriodUnits $unit = self::DEFAULT_UNIT
     ) {
         $this->departements = collect();
-        $this->start->startOfDay();
-        $this->end->endOfDay();
     }
 
     public static function period(Carbon $start, Carbon $end, PeriodUnits $unit = self::DEFAULT_UNIT)
@@ -38,6 +37,7 @@ class TemperatureSelectionService
         $periodAlias = 'period';
         $groupBy = [$periodAlias, 'departement_id'];
 
+        ray()->showQueries();
         $query = Temperature::query()
             ->with('departement')
             ->select(
@@ -45,7 +45,13 @@ class TemperatureSelectionService
                 DB::raw('AVG(temperature_moy) as moyenne'),
                 DB::raw($this->selectPeriod('date_observation', $periodAlias))
             )
-            ->whereBetween('date_observation', [$this->start->toDateString(), $this->end->toDateString()])
+            ->whereBetween(
+                'date_observation',
+                [
+                    $this->start->startOfDay()->toDateString(),
+                    $this->end->endOfDay()->toDateString(),
+                ]
+            )
         ;
 
         if ($this->departements->isNotEmpty()) {
@@ -65,15 +71,22 @@ class TemperatureSelectionService
         return $this;
     }
 
+    public function inDepartment(Departement $department): static
+    {
+        $this->departements->push($department);
+
+        return $this;
+    }
+
     public function selectPeriod(string $column, string $alias): string
     {
-        $format = match ($this->unit) {
-            PeriodUnits::YEAR => "YEAR({$column})",
-            PeriodUnits::MONTH => "YEAR({$column}), '-', MONTH({$column})",
-            default => "YEAR({$column}), '-', MONTH({$column})",
+        return match ($this->unit) {
+            PeriodUnits::DAY => "{$column} as {$alias}",
+            PeriodUnits::MONTH => "CONCAT(YEAR({$column}), '-', MONTH({$column})) as {$alias}",
+            PeriodUnits::WEEK => "CONCAT(YEAR({$column}), '-', WEEK({$column})) as {$alias}",
+            PeriodUnits::YEAR => "YEAR({$column}) as {$alias}",
+            default => "CONCAT(YEAR({$column}), '-', MONTH({$column})) as {$alias}",
         };
-
-        return "CONCAT({$format}) as {$alias}";
     }
 
     public function groupByPeriod(Collection $columns): string

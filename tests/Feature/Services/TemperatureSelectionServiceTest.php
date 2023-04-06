@@ -37,11 +37,24 @@ class TemperatureSelectionServiceTest extends TestCase
         $end = now();
         $alias = 'period';
 
-        // forcing mysql
-        $expected = "CONCAT(YEAR(date_observation), '-', MONTH(date_observation)) as period";
         $this->assertEquals(
-            $expected,
+            "CONCAT(YEAR(date_observation), '-', MONTH(date_observation)) as {$alias}",
             TemperatureSelectionService::period($start, $end)->setUnit(PeriodUnits::MONTH)->selectPeriod('date_observation', $alias)
+        );
+
+        $this->assertEquals(
+            "CONCAT(YEAR(date_observation), '-', WEEK(date_observation)) as {$alias}",
+            TemperatureSelectionService::period($start, $end)->setUnit(PeriodUnits::WEEK)->selectPeriod('date_observation', $alias)
+        );
+
+        $this->assertEquals(
+            "YEAR(date_observation) as {$alias}",
+            TemperatureSelectionService::period($start, $end)->setUnit(PeriodUnits::YEAR)->selectPeriod('date_observation', $alias)
+        );
+
+        $this->assertEquals(
+            "date_observation as {$alias}",
+            TemperatureSelectionService::period($start, $end)->setUnit(PeriodUnits::DAY)->selectPeriod('date_observation', $alias)
         );
     }
 
@@ -61,7 +74,6 @@ class TemperatureSelectionServiceTest extends TestCase
     /** @test */
     public function it_should_return_empty_selection_when_out_of_range(): void
     {
-        // creating 5 records in temperatures (5-10 january 2018)
         $this->createSomeTemperatures(
             Carbon::createFromFormat('Y-m-d', '2018-01-05'),
             Carbon::createFromFormat('Y-m-d', '2018-01-10')
@@ -77,33 +89,96 @@ class TemperatureSelectionServiceTest extends TestCase
     }
 
     /** @test */
-    public function it_should_return_partial_selection_when_partially_in_range(): void
+    public function it_should_return_two_days_selection(): void
     {
-        // creating 5 records in temperatures (5-10 january 2018)
         $this->createSomeTemperatures(
             Carbon::createFromFormat('Y-m-d', '2018-01-05'),
             Carbon::createFromFormat('Y-m-d', '2018-01-10')
         );
 
-        // wanting 8-15 january 2018
-        $start = Carbon::createFromFormat('Y-m-d', '2018-01-08');
+        $start = Carbon::createFromFormat('Y-m-d', '2018-01-06');
+        $end = Carbon::createFromFormat('Y-m-d', '2018-01-07');
+
+        $results = TemperatureSelectionService::period($start, $end)->setUnit(PeriodUnits::DAY)->get();
+
+        $this->assertNotNull($results);
+        $this->assertInstanceOf(Collection::class, $results);
+        $this->assertCount(2, $results);
+    }
+
+    /** @test */
+    public function it_should_return_one_month_selection(): void
+    {
+        $this->createSomeTemperatures(
+            Carbon::createFromFormat('Y-m-d', '2018-01-05'),
+            Carbon::createFromFormat('Y-m-d', '2018-01-10')
+        );
+
+        $start = Carbon::createFromFormat('Y-m-d', '2018-01-01');
         $end = Carbon::createFromFormat('Y-m-d', '2018-01-15');
 
-        ray()->showQueries();
-        // should have 2 days (8-10 january)
+        $results = TemperatureSelectionService::period($start, $end)->get();
+        $this->assertNotNull($results);
+        $this->assertInstanceOf(Collection::class, $results);
+        $this->assertCount(1, $results);
+    }
+
+    /** @test */
+    public function it_should_return_two_monthes_selection(): void
+    {
+        $this->createSomeTemperatures(
+            Carbon::createFromFormat('Y-m-d', '2018-01-25'),
+            Carbon::createFromFormat('Y-m-d', '2018-02-05')
+        );
+
+        $start = Carbon::createFromFormat('Y-m-d', '2018-01-01');
+        $end = Carbon::createFromFormat('Y-m-d', '2018-02-28');
+
         $results = TemperatureSelectionService::period($start, $end)->get();
         $this->assertNotNull($results);
         $this->assertInstanceOf(Collection::class, $results);
         $this->assertCount(2, $results);
     }
 
-    // temp by day
+    /** @test */
+    public function it_should_return_two_weeks_selection(): void
+    {
+        $this->createSomeTemperatures(
+            Carbon::createFromFormat('Y-m-d', '2022-07-04'),
+            Carbon::createFromFormat('Y-m-d', '2022-07-17')
+        );
 
-    // temp by week
+        $start = Carbon::createFromFormat('Y-m-d', '2022-07-06');
+        $end = Carbon::createFromFormat('Y-m-d', '2022-07-13');
 
-    // temp by month
+        $results = TemperatureSelectionService::period($start, $end)->setUnit(PeriodUnits::WEEK)->get();
+        $this->assertNotNull($results);
+        $this->assertInstanceOf(Collection::class, $results);
+        $this->assertCount(2, $results);
+    }
 
-    // selecting some dep only
+    /** @test */
+    public function it_should_return_two_monthes_for_specific_selection(): void
+    {
+        $this->createSomeTemperatures(
+            Carbon::createFromFormat('Y-m-d', '2018-01-25'),
+            Carbon::createFromFormat('Y-m-d', '2018-02-05'),
+        );
+        $department = Departement::factory()->create();
+        $this->createSomeTemperatures(
+            Carbon::createFromFormat('Y-m-d', '2018-01-25'),
+            Carbon::createFromFormat('Y-m-d', '2018-02-05'),
+            $department
+        );
+
+        $start = Carbon::createFromFormat('Y-m-d', '2018-01-01');
+        $end = Carbon::createFromFormat('Y-m-d', '2018-02-28');
+
+        $results = TemperatureSelectionService::period($start, $end)->inDepartment($department)->get();
+        $this->assertNotNull($results);
+        $this->assertInstanceOf(Collection::class, $results);
+        $this->assertCount(2, $results);
+    }
 
     /*
     |--------------------------------------------------------------------------
@@ -113,13 +188,13 @@ class TemperatureSelectionServiceTest extends TestCase
     protected function createSomeTemperatures(Carbon $start, Carbon $end, ?Departement $department = null): void
     {
         if ($department === null) {
-            $departments = Departement::query()->take(10)->inRandomOrder()->get();
+            $department = Departement::query()->inRandomOrder()->first();
         }
 
         $start->startOfDay();
         while ($start->isBefore($end)) {
             Temperature::factory()
-                ->departement($departments->random()->first())
+                ->departement($department)
                 ->dateObservation($start)
                 ->create()
             ;

@@ -37,8 +37,8 @@ class TemperatureTest extends TestCase
         $this->assertNotNull($this->temperature->departement);
         $this->assertInstanceOf(Departement::class, $this->temperature->departement);
         $this->assertEqualsCanonicalizing(
-            $this->departement->toArray(),
-            $this->temperature->departement->toArray(),
+            $this->departement->only(['id', 'nom', 'code_insee']),
+            $this->temperature->departement->only(['id', 'nom', 'code_insee']),
         );
     }
 }

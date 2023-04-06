@@ -8,6 +8,7 @@ use App\Http\Livewire\Charts;
 use App\Models\Download;
 use App\Models\Media;
 use Carbon\Carbon;
+use Illuminate\Foundation\Testing\LazilyRefreshDatabase;
 use Livewire\Livewire;
 use Tests\TestCase;
 
@@ -18,6 +19,8 @@ use Tests\TestCase;
  */
 class ChartsTest extends TestCase
 {
+    use LazilyRefreshDatabase;
+
     public function setUp(): void
     {
         parent::setUp();

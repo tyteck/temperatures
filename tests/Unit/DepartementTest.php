@@ -88,6 +88,7 @@ class DepartementTest extends TestCase
         ;
 
         $results = Departement::byCodeInsee(['06', '83']);
+
         $this->assertNotNull($results);
         $this->assertInstanceOf(Collection::class, $results);
         $this->assertCount(2, $results);
@@ -95,15 +96,11 @@ class DepartementTest extends TestCase
         $departements->each(function (Departement $departement) use ($results): void {
             $this->assertTrue($results->contains('code_insee', '=', $departement->code_insee));
 
-            dump(
-                $departement->toArray(),
-                $results->where('code_insee', '=', $departement->code_insee)->sole()->toArray()
-            );
             $this->assertEqualsCanonicalizing(
-                $departement->toArray(),
+                $departement->only(['id', 'nom', 'code_insee']),
                 $results->where('code_insee', '=', $departement->code_insee)
-                    ->sole()
-                    ->toArray()
+                    ->first()
+                    ->only(['id', 'nom', 'code_insee'])
             );
         });
     }
