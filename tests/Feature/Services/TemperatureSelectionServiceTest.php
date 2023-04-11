@@ -27,7 +27,6 @@ class TemperatureSelectionServiceTest extends TestCase
     public function setUp(): void
     {
         parent::setUp();
-        $this->seedDepartments();
     }
 
     /** @test */
@@ -158,13 +157,16 @@ class TemperatureSelectionServiceTest extends TestCase
     }
 
     /** @test */
-    public function it_should_return_two_monthes_for_specific_selection(): void
+    public function it_should_return_two_monthes_for_single_department(): void
     {
+        // create some temperatures
         $this->createSomeTemperatures(
             Carbon::createFromFormat('Y-m-d', '2018-01-25'),
             Carbon::createFromFormat('Y-m-d', '2018-02-05'),
         );
-        $department = Departement::factory()->create();
+
+        // create temperatures for specific one
+        $department = Departement::factory()->codeInsee('06')->create();
         $this->createSomeTemperatures(
             Carbon::createFromFormat('Y-m-d', '2018-01-25'),
             Carbon::createFromFormat('Y-m-d', '2018-02-05'),
@@ -174,7 +176,11 @@ class TemperatureSelectionServiceTest extends TestCase
         $start = Carbon::createFromFormat('Y-m-d', '2018-01-01');
         $end = Carbon::createFromFormat('Y-m-d', '2018-02-28');
 
-        $results = TemperatureSelectionService::period($start, $end)->inDepartment($department)->get();
+        $results = TemperatureSelectionService::period($start, $end)
+            ->inDepartment($department->code_insee)
+            ->get()
+        ;
+
         $this->assertNotNull($results);
         $this->assertInstanceOf(Collection::class, $results);
         $this->assertCount(2, $results);
@@ -188,7 +194,7 @@ class TemperatureSelectionServiceTest extends TestCase
     protected function createSomeTemperatures(Carbon $start, Carbon $end, ?Departement $department = null): void
     {
         if ($department === null) {
-            $department = Departement::query()->inRandomOrder()->first();
+            $department = Departement::factory()->create();
         }
 
         $start->startOfDay();

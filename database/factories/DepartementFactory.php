@@ -26,6 +26,11 @@ class DepartementFactory extends Factory
 
     public function name(string $name): static
     {
-        return $this->set('nom', $name);
+        return $this->state(['nom' => $name]);
+    }
+
+    public function codeInsee(string $codeInsee): static
+    {
+        return $this->state(['code_insee' => $codeInsee]);
     }
 }

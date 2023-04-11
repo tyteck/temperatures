@@ -5,9 +5,9 @@ declare(strict_types=1);
 namespace App\Services;
 
 use App\Enums\PeriodUnits;
-use App\Models\Departement;
 use App\Models\Temperature;
 use Carbon\Carbon;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
@@ -37,7 +37,6 @@ class TemperatureSelectionService
         $periodAlias = 'period';
         $groupBy = [$periodAlias, 'departement_id'];
 
-        ray()->showQueries();
         $query = Temperature::query()
             ->with('departement')
             ->select(
@@ -55,7 +54,7 @@ class TemperatureSelectionService
         ;
 
         if ($this->departements->isNotEmpty()) {
-            $query->whereIn('departement_id', $this->departements);
+            $query->whereHas('departement', fn (Builder $query) => $query->whereIn('code_insee', $this->departements));
         }
 
         return $query
@@ -71,9 +70,11 @@ class TemperatureSelectionService
         return $this;
     }
 
-    public function inDepartment(Departement $department): static
+    public function inDepartment(string|array $departments): static
     {
-        $this->departements->push($department);
+        $departments = is_array($departments) ? $departments : func_get_args();
+
+        array_map(fn (string $department) => $this->departements->push($department), $departments);
 
         return $this;
     }
