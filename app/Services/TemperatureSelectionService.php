@@ -8,7 +8,6 @@ use App\Enums\PeriodUnits;
 use App\Models\Temperature;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
 
@@ -31,7 +30,7 @@ class TemperatureSelectionService
         return new static($start, $end, $unit);
     }
 
-    public function get(): EloquentCollection
+    public function get(): Collection
     {
         // default group by
         $periodAlias = 'period';
@@ -60,6 +59,7 @@ class TemperatureSelectionService
         return $query
             ->groupBy($groupBy)
             ->get()
+            ->mapWithKeys(fn (Temperature $temperature) => [$temperature->period => round($temperature->moyenne, 2)])
         ;
     }
 

@@ -4,7 +4,8 @@ declare(strict_types=1);
 
 namespace App\Http\Livewire;
 
-use App\Models\Download;
+use App\Enums\PeriodUnits;
+use App\Services\TemperatureSelectionService;
 use Carbon\Carbon;
 use Livewire\Component;
 
@@ -12,9 +13,21 @@ class Charts extends Component
 {
     public array $abscissa = [];
     public array $ordinate = [];
+    public Carbon $currentDate;
+    public int $selectedPeriod = 0;
+    public PeriodUnits $selectedUnit = PeriodUnits::MONTH;
+    public string $selectedPeriodLabel;
+    public array $periods = [];
+
+    public const PERIOD_ALL = 0;
 
     public function mount(): void
     {
+        $this->periods = [
+            self::PERIOD_ALL => 'Tout',
+        ];
+
+        $this->selectedPeriodLabel = $this->periods[$this->selectedPeriod];
         $this->buildCoordinates();
     }
 
@@ -36,45 +49,47 @@ class Charts extends Component
     public function fromPeriodToDates(?int $period = null): array
     {
         return match ($period) {
-            self::PERIOD_LAST_WEEK => [
-                now()->subWeek()->startOfWeek(weekStartsAt: Carbon::MONDAY), now()->subWeek()->endOfWeek(weekEndsAt: Carbon::SUNDAY),
-            ],
-            self::PERIOD_LAST_MONTH => [now()->subMonth()->startOfMonth(), now()->subMonth()->endOfMonth()],
-            self::PERIOD_THIS_WEEK => [now()->startOfWeek(weekStartsAt: Carbon::MONDAY), now()->endOfWeek(weekEndsAt: Carbon::SUNDAY)],
-            self::PERIOD_THIS_MONTH => [now()->startOfMonth(), now()->endOfMonth()],
-            self::PERIOD_LAST_QUARTER => [now()->startOfMonth()->subMonth(3), now()->endOfMonth()],
-            // this month
-            default => [now()->startOfMonth(), now()->endOfMonth()],
+            // all
+            self::PERIOD_ALL => [Carbon::createFromFormat('Y-m-d', '2018-01-01')->startOfDay(), now()],
+            default => [Carbon::createFromFormat('Y-m-d', '2018-01-01')->startOfDay(), now()],
         };
     }
 
     public function buildCoordinates(): void
     {
-        [$startDateToKeep, $endDate] = $this->fromPeriodToDates($this->selectedPeriod);
+        [$startDateToKeep, $endDate] = $this->fromPeriodToDates();
 
         // filling fake downloads with 0
-        $startDate = clone $startDateToKeep;
-        $paddedDownloads = [];
-        while ($startDate->lessThan($endDate)) {
-            $paddedDownloads[$startDate->toDateString()] = 0;
-            $startDate->addDay();
+        $this->currentDate = clone $startDateToKeep;
+        $padded = [];
+        while ($this->currentDate->lessThan($endDate)) {
+            $padded[$this->currentDate->format('Y-n')] = 0;
+            $this->incrementPeriod();
         }
 
         // getting downloads
-        $downloads = Download::downloadsByInterval(
-            startDate: $startDateToKeep,
-            endDate: $endDate,
-            channel: $this->channel,
-        )->pluck('counted', 'log_day')->toArray();
+        $temperatures = TemperatureSelectionService::period($startDateToKeep, $endDate)
+            ->get()
+            ->toArray()
+        ;
 
         // merging with padded
-        $downloads = array_merge($paddedDownloads, $downloads);
+        $temperatures = array_merge($padded, $temperatures);
 
         // building datasets
         $this->abscissa = $this->ordinate = [];
-        foreach ($downloads as $dateKey => $counted) {
+        foreach ($temperatures as $dateKey => $counted) {
             $this->abscissa[] = $dateKey;
             $this->ordinate[] = $counted;
         }
+    }
+
+    protected function incrementPeriod(): void
+    {
+        match ($this->selectedUnit) {
+            PeriodUnits::YEAR => $this->currentDate->addYear(),
+            PeriodUnits::MONTH => $this->currentDate->addMonth(),
+            default => $this->currentDate->addMonth(),
+        };
     }
 }

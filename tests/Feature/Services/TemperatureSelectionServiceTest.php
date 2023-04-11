@@ -9,8 +9,8 @@ use App\Models\Departement;
 use App\Models\Temperature;
 use App\Services\TemperatureSelectionService;
 use Carbon\Carbon;
-use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Foundation\Testing\LazilyRefreshDatabase;
+use Illuminate\Support\Collection;
 use Tests\TestCase;
 
 /**

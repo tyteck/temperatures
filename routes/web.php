@@ -16,5 +16,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    $pageTitle = 'Courbes Ecologiques 📈';
+
+    return view('welcome', compact('pageTitle'));
+})->name('index');

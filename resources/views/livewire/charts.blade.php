@@ -5,7 +5,7 @@
         abscissa: @entangle('abscissa'),
         ordinate: @entangle('ordinate'),
         init() {
-            const ctx = document.getElementById('analytics');
+            const ctx = document.getElementById('temperatures');
     
             const config = {
                 type: 'line',
@@ -88,11 +88,13 @@
             <!--/button-->
         </div>
     </div>
-    <canvas id="analytics"></canvas>
+    ---
+    <canvas id="temperatures"></canvas>
+    ===
 </div>
 
 @once
     @push('scripts')
-        <script src="{{ asset('js/chart.js') }}"></script>
+        <script src="{{ asset('build/js/chart.js') }}"></script>
     @endpush
 @endOnce
