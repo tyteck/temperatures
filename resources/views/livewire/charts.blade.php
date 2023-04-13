@@ -6,7 +6,7 @@
         ordinate: @entangle('ordinate'),
         init() {
             const ctx = document.getElementById('temperatures');
-    
+            console.log(ctx);
             const config = {
                 type: 'line',
                 data: {
@@ -88,13 +88,5 @@
             <!--/button-->
         </div>
     </div>
-    ---
     <canvas id="temperatures"></canvas>
-    ===
 </div>
-
-@once
-    @push('scripts')
-        <script src="{{ asset('build/js/chart.js') }}"></script>
-    @endpush
-@endOnce

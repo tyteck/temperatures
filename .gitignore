@@ -23,3 +23,4 @@ node_modules
 _ide_helper.php
 .php-cs-fixer.cache
 public/hot
+public/build/manifest.json
