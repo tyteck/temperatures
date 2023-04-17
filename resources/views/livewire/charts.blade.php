@@ -44,6 +44,7 @@
 
         <div class="flex flex-row-reverse">
             <div x-data="{ open: false }" class="w-40">
+                {{-- 
                 <button type="button" x-on:click="open = ! open"
                     class="bg-white text-gray-900 relative w-full border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                     aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
@@ -83,7 +84,7 @@
                             @endif
                         </li>
                     @endforeach
-                </ul>
+                </ul> --}}
             </div>
             <!--/button-->
         </div>
