@@ -14,17 +14,21 @@ class Charts extends Component
     public array $abscissa = [];
     public array $ordinate = [];
     public Carbon $currentDate;
-    public int $selectedPeriod = 0;
+    public int $selectedPeriod = self::PERIOD_ALL;
     public PeriodUnits $selectedUnit = PeriodUnits::MONTH;
     public string $selectedPeriodLabel;
     public array $periods = [];
 
     public const PERIOD_ALL = 0;
+    public const PERIOD_THIS_YEAR = 1;
+    public const PERIOD_LAST_YEAR = 2;
 
     public function mount(): void
     {
         $this->periods = [
-            self::PERIOD_ALL => 'Tout',
+            self::PERIOD_ALL => 'depuis janvier 2018',
+            self::PERIOD_THIS_YEAR => 'cette année',
+            self::PERIOD_LAST_YEAR => "l'année dernière",
         ];
 
         $this->selectedPeriodLabel = $this->periods[$this->selectedPeriod];
@@ -33,6 +37,7 @@ class Charts extends Component
 
     public function selectingPeriod(int $index): void
     {
+        $this->selectedPeriod = $index;
         $this->buildCoordinates();
 
         $this->emit('updateChartsData');
@@ -46,12 +51,14 @@ class Charts extends Component
     /**
      * @return array<Carbon>
      */
-    public function fromPeriodToDates(?int $period = null): array
+    public function fromPeriodToDates(): array
     {
-        return match ($period) {
+        return match ($this->selectedPeriod) {
+            self::PERIOD_LAST_YEAR => [now()->subYear()->startOfYear(), now()->subYear()->endOfYear()],
+            self::PERIOD_THIS_YEAR => [now()->startOfYear(), now()->subMonth()->endOfMonth()],
             // all
-            self::PERIOD_ALL => [Carbon::createFromFormat('Y-m-d', '2018-01-01')->startOfDay(), now()],
-            default => [Carbon::createFromFormat('Y-m-d', '2018-01-01')->startOfDay(), now()],
+            self::PERIOD_ALL => [Carbon::createFromFormat('Y-m-d', '2018-01-01')->startOfDay(), now()->subMonth()->endOfMonth()],
+            default => [Carbon::createFromFormat('Y-m-d', '2018-01-01')->startOfDay(), now()->subMonth()->endOfMonth()],
         };
     }
 
@@ -79,7 +86,7 @@ class Charts extends Component
         // building datasets
         $this->abscissa = $this->ordinate = [];
         foreach ($temperatures as $dateKey => $counted) {
-            $this->abscissa[] = $dateKey;
+            $this->abscissa[] = Carbon::createFromFormat('Y-n', $dateKey)->translatedFormat('M Y');
             $this->ordinate[] = $counted;
         }
     }

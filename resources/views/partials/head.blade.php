@@ -3,15 +3,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@yield('pageTitle') - Courbes Ecologiques</title>
-    <meta name="description" content="Podcast hosting for youtube channels made easy.">
-    <meta name="keywords" content="youtube, podcast, podcasts, hosting, channel">
+    <meta name="description" content="Des courbes pour juger de l'état du climat">
+    <meta name="keywords" content="réchauffement climatique, temperatures, france, département">
     <meta name="author" content="Frederick Tyteca">
 
     <!--Favicon-->
     <link rel="icon" type="image/png" href="/favicon.png" />
     
     @vite(['resources/js/app.js'])
-    <script defer src="{{ mix('js/alpine.js') }}"></script>
     
     @livewireStyles
     <!-- CSRF Token -->
