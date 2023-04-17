@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $pageTitle = 'Courbes Ecologiques 📈';
+    $pageTitle = 'Courbes Climatiques 📈';
 
     return view('welcome', compact('pageTitle'));
 })->name('index');
