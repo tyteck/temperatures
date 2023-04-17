@@ -9,10 +9,9 @@
 
     <!--Favicon-->
     <link rel="icon" type="image/png" href="/favicon.png" />
-    
+
     @vite(['resources/js/app.js'])
-    <script defer src="{{ mix('js/alpine.js') }}"></script>
-    
+
     @livewireStyles
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
