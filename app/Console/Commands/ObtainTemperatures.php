@@ -29,8 +29,7 @@ class ObtainTemperatures extends Command
     protected $signature = 'temperatures:get 
                             {--since= : getting temperatures since date specified with format Y-m-d.} 
                             {--to= : getting temperatures to date specified with format Y-m-d.}
-                            {--departments= : getting temperatures for specified departement(s) (by insee code, separated with comma).}'
-    ;
+                            {--departments= : getting temperatures for specified departement(s) (by insee code, separated with comma).}';
 
     /**
      * The console command description.
@@ -52,7 +51,10 @@ class ObtainTemperatures extends Command
             $limit = now()->subMonth()->endOfMonth();
 
             // since
-            $this->since = Carbon::createFromFormat(self::PERIOD_FORMAT, $this->option('since'));
+            $this->since = $this->option('since') !== null ?
+                Carbon::createFromFormat(self::PERIOD_FORMAT, $this->option('since')) :
+                now()->subMonth()->startOfMonth();
+
             throw_if(
                 $this->since->isBefore(Carbon::createMidnightDate(2018, 1, 1))
                 || $this->since->isAfter($limit),
@@ -62,8 +64,7 @@ class ObtainTemperatures extends Command
             // end period
             $this->to = $this->option('to') ?
                 Carbon::createFromFormat(self::PERIOD_FORMAT, $this->option('to')) :
-                $this->since->copy()->addMonth()
-            ;
+                $this->since->copy()->addMonth();
 
             // departements
             $departments = $this->option('departments') ? Departement::byCodeInsee($this->option('departments')) : Departement::all();

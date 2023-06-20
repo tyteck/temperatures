@@ -15,9 +15,7 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule): void
     {
-        $schedule->command(ObtainTemperatures::class, [
-            '--since' => now()->subMonth()->startOfMonth(),
-        ])->monthly();
+        $schedule->command(ObtainTemperatures::class)->monthly();
     }
 
     /**
