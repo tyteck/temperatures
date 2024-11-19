@@ -10,9 +10,9 @@ services:
         GROUP_ID: ${GROUP_ID:-0}
     image: temperatures:0.1
     restart: always
-    expose:
-      - "80"
-      - "443"
+    ports:
+      - 80:80
+      - 443:443
     extra_hosts:
       - "host.docker.internal:host-gateway"
     environment:
@@ -31,5 +31,5 @@ services:
 
 networks:
   default:
-    name: nginx-proxy
+    name: local
     external: true

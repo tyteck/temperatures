@@ -1,7 +1,7 @@
 #
 # composer
 #
-FROM composer:2.0 as composer
+FROM composer:2.0 AS composer
 
 COPY database database
 COPY composer.json composer.json
@@ -17,7 +17,7 @@ RUN composer install \
 #
 # node
 #
-FROM node:19.0-buster as node
+FROM node:19.0-buster AS node
 
 RUN mkdir -p /app/public/css /app/public/js
 
